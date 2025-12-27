@@ -1,0 +1,54 @@
+﻿site_name: CoinMatch Pool Whitepaper
+site_description: Polla del Mundial 2026 - Predice y Gana en Criptomonedas
+site_url: https://themadscore.github.io/coinmatch-whitepaper
+site_author: CoinMatch Pool
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: green
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - content.code.copy
+    - toc.integrate
+
+extra_css:
+  - stylesheets/custom.css
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+
+nav:
+  - Inicio: index.md
+  - Cómo Jugar: como-jugar.md
+  - Sistema de Puntos: puntos.md
+  - Premios: premios.md
+  - FAQ: faq.md
+  - Roadmap: roadmap.md
+
+plugins:
+  - search:
+      lang: es
+
+copyright: Copyright &copy; 2024-2026 CoinMatch Pool
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/coinmatchpool
+      name: Telegram

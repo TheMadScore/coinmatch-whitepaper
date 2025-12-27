@@ -1,0 +1,158 @@
+﻿/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+
+/* Aplicar fuente globalmente */
+* {
+  font-family: 'IBM Plex Mono', monospace !important;
+}
+
+/* Header - Fondo gris oscuro */
+.md-header {
+  background-color: #1e2129 !important;
+}
+
+/* Logo en blanco */
+.md-header__button.md-logo svg {
+  fill: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* Título "CoinMatch Pool" en blanco */
+.md-header__title {
+  color: #ffffff !important;
+}
+
+.md-header__title .md-header__ellipsis {
+  color: #ffffff !important;
+}
+
+/* Logo clickeable */
+.md-header__button.md-logo {
+  cursor: pointer !important;
+}
+
+.md-header__button.md-logo:hover {
+  opacity: 0.8;
+}
+
+/* ===== OCULTAR "CoinMatch Pool" EN DESKTOP ===== */
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary > .md-nav__title[for="__drawer"] {
+    display: none !important;
+  }
+}
+
+/* ===== DRAWER MÓVIL - FONDO GRIS ===== */
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  background-color: #1e2129 !important;
+}
+
+.md-sidebar--primary {
+  background-color: #1e2129 !important;
+}
+
+[data-md-component="sidebar"] {
+  background-color: #1e2129 !important;
+}
+
+.md-nav--primary {
+  background-color: #1e2129 !important;
+}
+
+/* Header del drawer - GRIS */
+.md-nav--primary > .md-nav__title {
+  background-color: #1e2129 !important;
+}
+
+/* Logo del drawer - BLANCO */
+.md-nav--primary .md-nav__title .md-logo {
+  color: #ffffff !important;
+}
+
+.md-nav--primary .md-nav__title .md-logo svg {
+  fill: #ffffff !important;
+  color: #ffffff !important;
+}
+
+.md-nav--primary .md-nav__title .md-logo img {
+  filter: brightness(0) invert(1) !important;
+}
+
+/* Título del drawer - BLANCO */
+.md-nav--primary > .md-nav__title .md-nav__button {
+  color: #ffffff !important;
+}
+
+.md-nav--primary > .md-nav__title[for="__drawer"] {
+  background-color: #1e2129 !important;
+  color: #ffffff !important;
+}
+
+.md-nav__title .md-ellipsis {
+  color: #ffffff !important;
+}
+
+/* ===== SECCIONES DEL MENÚ ===== */
+
+/* "Documentación Técnica" SIEMPRE VERDE NEÓN */
+.md-nav__item--section > .md-nav__link {
+  color: #00ff88 !important;
+  font-weight: 600 !important;
+}
+
+/* Título de sección expandida también verde */
+.md-nav__item--active > .md-nav__link {
+  color: #00ff88 !important;
+}
+
+/* Otros títulos de sección verde neón */
+.md-nav__title {
+  color: #00ff88 !important;
+  font-weight: 600 !important;
+}
+
+/* Excepción: El título principal del drawer (CoinMatch Pool) en blanco */
+.md-nav--primary > .md-nav__title {
+  color: #ffffff !important;
+}
+
+/* "Inicio" en verde neón */
+.md-nav__item:first-child .md-nav__link {
+  color: #00ff88 !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+}
+
+/* Links normales del menú lateral */
+.md-nav__link {
+  color: #ffffff !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Hover en links (morado brillante) */
+.md-nav__link:hover {
+  color: #A78BFA !important;
+  background-color: transparent !important;
+}
+
+/* Link activo (verde neón) */
+.md-nav__link--active {
+  color: #00ff88 !important;
+  font-weight: 600 !important;
+}
+
+/* Botones Previous/Next */
+.md-footer__link {
+  background-color: #2a2a2a !important;
+  border: 1px solid #444 !important;
+  color: #ccc !important;
+  transition: all 0.2s ease !important;
+}
+
+.md-footer__link:hover {
+  background-color: #3a3a3a !important;
+  border-color: #666 !important;
+  color: #fff !important;
+}
+
