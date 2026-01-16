@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>CoinMatch Pool - Mundial 2026</title>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background:
+                radial-gradient(ellipse at top, rgba(178, 78, 255, 0.08), transparent 70%),
+                radial-gradient(ellipse at bottom, rgba(0, 255, 136, 0.06), transparent 70%),
+                #0a0e17;
+            color: #ffffff;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: -1;
+            background-image:
+                radial-gradient(circle, rgba(0, 255, 136, 0.3) 1px, transparent 1px),
+                radial-gradient(circle, rgba(178, 78, 255, 0.25) 1px, transparent 1px);
+            background-size: 70px 70px, 90px 90px;
+            background-position: 0 0, 35px 45px;
+            animation: particlesFloat 60s linear infinite;
+            opacity: 0.25;
+        }
+
+        @keyframes particlesFloat {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-90px);
+            }
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            letter-spacing: -0.03em;
+            font-weight: 800;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(10, 14, 23, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            padding: 1.25rem 2rem;
+            border-bottom: 1px solid rgba(0, 255, 136, 0.1);
+        }
+
+        nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo a {
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .logo a:hover {
+            transform: translateY(-2px);
+            filter: drop-shadow(0 0 10px rgba(0, 255, 136, 0.6));
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #00ff88, #B24EFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            position: relative;
+            display: inline-block;
+            padding: 0.75rem 1.8rem;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: rgba(255, 255, 255, 0.6);
+            background: rgba(10, 20, 35, 0.4);
+            border: 1px solid rgba(0, 255, 136, 0.2);
+            clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px);
+            transition: all 0.4s ease;
+            text-decoration: none;
+            box-shadow: 0 0 10px rgba(0, 255, 136, 0.1);
+        }
+
+        .nav-links a:hover {
+            color: #ffffff;
+            background: rgba(0, 255, 136, 0.15);
+            border-color: #00ff88;
+            box-shadow: 0 0 25px rgba(0, 255, 136, 0.6);
+            transform: translateY(-2px);
+        }
+
+        .nav-links a::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(135deg, #00ff88, #B24EFF);
+            clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: -1;
+        }
+
+        .nav-links a:hover::before {
+            opacity: 1;
+        }
+
+        .btn-neon {
+            position: relative;
+            display: inline-block;
+            padding: 1.1rem 2.8rem;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1.15rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #a0ffd0;
+            background: rgba(10, 20, 35, 0.7);
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            clip-path: polygon(12px 0%, 100% 0%, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0% 100%, 0% 12px);
+            cursor: pointer;
+            transition: all 0.4s ease;
+            overflow: hidden;
+            text-decoration: none;
+            box-shadow: 0 0 15px rgba(0, 255, 136, 0.15);
+        }
+
+        .btn-neon:hover {
+            color: #ffffff;
+            background: rgba(0, 255, 136, 0.15);
+            border-color: #00ff88;
+            box-shadow: 0 0 40px rgba(0, 255, 136, 0.8), inset 0 0 30px rgba(0, 255, 136, 0.2);
+            transform: translateY(-4px);
+        }
+
+        .btn-neon::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #00ff88, #B24EFF, #00ff88);
+            clip-path: polygon(12px 0%, 100% 0%, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0% 100%, 0% 12px);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: -1;
+        }
+
+        .btn-neon:hover::before {
+            opacity: 1;
+        }
+
+        .btn-neon-purple {
+            color: #e0b0ff;
+            background: rgba(20, 10, 35, 0.7);
+            border: 1px solid rgba(178, 78, 255, 0.3);
+            box-shadow: 0 0 15px rgba(178, 78, 255, 0.15);
+        }
+
+        .btn-neon-purple:hover {
+            color: #ffffff;
+            background: rgba(178, 78, 255, 0.15);
+            border-color: #B24EFF;
+            box-shadow: 0 0 40px rgba(178, 78, 255, 0.8), inset 0 0 30px rgba(178, 78, 255, 0.2);
+        }
+
+        .btn-neon-purple::before {
+            background: linear-gradient(45deg, #B24EFF, #00ff88, #B24EFF);
+        }
+
+        .btn-neon-header {
+            padding: 0.9rem 2.2rem;
+            font-size: 1rem;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 8rem 2rem 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            opacity: 0.4;
+        }
+
+        .hero-content {
+            max-width: 1100px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-players {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .player {
+            position: absolute;
+            opacity: 0.75;
+            filter: drop-shadow(0 0 40px rgba(0, 255, 136, 0.6));
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .player1 {
+            left: -3%;
+            top: 15%;
+            width: 480px;
+            animation-delay: 0s;
+        }
+
+        .player2 {
+            display: none;
+        }
+
+        .player3 {
+            right: -2%;
+            top: 20%;
+            width: 420px;
+            animation-delay: 1.5s;
+            opacity: 0.7;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0) scale(1);
+            }
+
+            50% {
+                transform: translateY(-30px) scale(1.02);
+            }
+        }
+
+        .hero h1 {
+            font-size: 5.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+            background: linear-gradient(135deg, #ffffff 0%, #00ff88 50%, #B24EFF 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.75rem;
+            color: #00ff88;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .hero-description {
+            font-size: 1.35rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .marquee {
+            background: linear-gradient(90deg, #00ff88, #B24EFF, #00ff88);
+            padding: 1.5rem 0;
+            margin: 3rem 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .marquee-content {
+            display: flex;
+            animation: marquee 30s linear infinite;
+            white-space: nowrap;
+        }
+
+        .marquee-item {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #0a0e17;
+            padding: 0 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+            margin: 4rem 0;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #00ff88, #B24EFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.6);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-top: 0.5rem;
+        }
+
+        section {
+            padding: 7rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #ffffff, #00ff88);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.35rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 5rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2.5rem;
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 1200px) {
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .feature-card {
+            position: relative;
+            background: rgba(10, 20, 35, 0.6);
+            padding: 3rem 2rem;
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            clip-path: polygon(15px 0%, 100% 0%, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0% 100%, 0% 15px);
+            text-align: center;
+            transition: all 0.4s ease;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0, 255, 136, 0.1);
+        }
+
+        .feature-card:hover {
+            border-color: #00ff88;
+            box-shadow: 0 0 40px rgba(0, 255, 136, 0.6), inset 0 0 30px rgba(0, 255, 136, 0.1);
+            transform: translateY(-10px);
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(135deg, #00ff88, #B24EFF);
+            clip-path: polygon(15px 0%, 100% 0%, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0% 100%, 0% 15px);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: -1;
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-icon {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 1.5rem;
+            display: block;
+            object-fit: contain;
+        }
+
+        .feature-card h3 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            color: #00ff88;
+            transition: color 0.4s ease;
+        }
+
+        .feature-card:hover h3 {
+            color: #ffffff;
+        }
+
+        .feature-card p {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.7;
+            font-size: 1.05rem;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 4rem;
+            margin-top: 4rem;
+        }
+
+        .step {
+            text-align: center;
+            padding: 2rem;
+            transition: all 0.4s ease;
+            cursor: default;
+        }
+
+        .step:hover {
+            transform: translateY(-15px);
+        }
+
+        .step-number {
+            width: 90px;
+            height: 90px;
+            background: linear-gradient(135deg, #B24EFF, #8b5cf6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: 800;
+            margin: 0 auto 2rem;
+            color: white;
+            box-shadow: 0 0 30px rgba(178, 78, 255, 0.6);
+            transition: all 0.4s ease;
+        }
+
+        .step:hover .step-number {
+            transform: scale(1.15);
+            box-shadow: 0 0 50px rgba(0, 255, 136, 0.9);
+            background: linear-gradient(135deg, #00ff88, #00d470);
+        }
+
+        .step h3 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            color: rgba(255, 255, 255, 0.8);
+            transition: color 0.4s ease;
+        }
+
+        .step:hover h3 {
+            color: #00ff88;
+            text-shadow: 0 0 15px rgba(0, 255, 136, 0.8);
+        }
+
+        .step p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 1.1rem;
+            line-height: 1.6;
+            transition: color 0.4s ease;
+        }
+
+        .step:hover p {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .prizes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 4rem;
+        }
+
+        .prize-card {
+            position: relative;
+            background: rgba(10, 20, 35, 0.7);
+            padding: 4rem 2rem;
+            border: 2px solid rgba(0, 255, 136, 0.3);
+            clip-path: polygon(20px 0%, 100% 0%, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0% 100%, 0% 20px);
+            text-align: center;
+            transition: all 0.4s ease;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.15);
+            cursor: default;
+        }
+
+        .prize-card:hover {
+            border-color: #00ff88;
+            box-shadow: 0 0 50px rgba(0, 255, 136, 0.8), inset 0 0 40px rgba(0, 255, 136, 0.2);
+            transform: translateY(-15px) scale(1.03);
+        }
+
+        .prize-card::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(135deg, #00ff88, #B24EFF);
+            clip-path: polygon(20px 0%, 100% 0%, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0% 100%, 0% 20px);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: -1;
+        }
+
+        .prize-card:hover::before {
+            opacity: 1;
+        }
+
+        .prize-amount {
+            font-size: 4rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #00ff88, #B24EFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            transition: all 0.4s ease;
+        }
+
+        .prize-card:hover .prize-amount {
+            background: linear-gradient(135deg, #ffffff, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 30px rgba(0, 255, 136, 0.8);
+            transform: scale(1.05);
+        }
+
+        .prize-label {
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 600;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 8rem 2rem;
+            background: rgba(10, 20, 35, 0.6);
+            border: 1px solid rgba(0, 255, 136, 0.3);
+            clip-path: polygon(30px 0%, 100% 0%, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0% 100%, 0% 30px);
+            margin: 5rem auto;
+            max-width: 1200px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 255, 136, 0.1);
+        }
+
+        .cta-section h2 {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-section p {
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 3rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        footer {
+            background: #050810;
+            padding: 4rem 2rem 2rem;
+            border-top: 1px solid rgba(0, 255, 136, 0.1);
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .footer-links a:hover {
+            color: #00ff88;
+        }
+
+        .copyright {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 0.875rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding-top: 7rem;
+                padding-bottom: 2rem;
+            }
+
+            .hero-content {
+                padding-top: 12rem;
+                /* Baja más el texto para no tapar nada */
+            }
+
+            .hero h1 {
+                font-size: 3rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.25rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            header {
+                padding: 1rem 1.5rem;
+            }
+
+            .section-title {
+                font-size: 2.5rem;
+            }
+
+            .cta-section h2 {
+                font-size: 2.5rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .btn-neon {
+                padding: 1rem 2.5rem;
+                font-size: 1.1rem;
+            }
+
+            .btn-neon-header {
+                padding: 0.8rem 1.8rem;
+                font-size: 0.9rem;
+            }
+
+            .player {
+                display: none;
+            }
+
+            /* Jugador centrado en móvil - más subido pero sin tapar texto */
+            .player3 {
+                display: block;
+                position: relative;
+                width: 340px;
+                max-width: 90vw;
+                margin: -8rem auto 2rem;
+                /* Sube más la imagen para mostrar todo */
+                opacity: 0.9;
+                filter: drop-shadow(0 0 30px rgba(0, 255, 136, 0.6));
+                animation: none;
+                z-index: 1;
+            }
+
+            .feature-card,
+            .step,
+            .prize-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .step-number {
+                width: 70px;
+                height: 70px;
+                font-size: 2.5rem;
+            }
+
+            .prize-amount {
+                font-size: 3.2rem;
+            }
+
+            .prizes-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#hero">
+                    <span class="logo-text">CoinMatch Pool</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#como-funciona">Cómo Funciona</a></li>
+                <li><a href="#premios">Premios</a></li>
+                <li><a href="/docs/intro">Whitepaper</a></li>
+            </ul>
+            <a href="#unete"
+               class="btn-neon btn-neon-header">Únete Ahora</a>
+        </nav>
+    </header>
+
+    <section class="hero"
+             id="hero">
+        <div class="hero-players">
+            <img src="jugador1.png"
+                 alt="Player 1"
+                 class="player player1">
+            <img src="jugador2.png"
+                 alt="Player 2"
+                 class="player player2">
+            <img src="jugador3.png"
+                 alt="Player 3"
+                 class="player player3">
+        </div>
+
+        <div class="hero-content">
+            <h1>CoinMatch Pool</h1>
+            <p class="hero-subtitle">Mundial 2026 - Predicciones Deportivas</p>
+            <p class="hero-description">Predice 103 partidos del Mundial 2026 y compite por premios en DAI. Una
+                plataforma descentralizada donde tus conocimientos valen.</p>
+
+            <div class="cta-buttons">
+                <a href="#unete"
+                   class="btn-neon">Únete Ahora - 30 DAI</a>
+                <a href="/docs/intro"
+                   class="btn-neon btn-neon-purple">Ver Whitepaper</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="marquee">
+        <div class="marquee-content">
+            <span class="marquee-item">ÚNETE AL POOL</span><span class="marquee-item">•</span>
+            <span class="marquee-item">30 DAI ENTRADA</span><span class="marquee-item">•</span>
+            <span class="marquee-item">103 PARTIDOS</span><span class="marquee-item">•</span>
+            <span class="marquee-item">GRANDES PREMIOS</span><span class="marquee-item">•</span>
+            <span class="marquee-item">ÚNETE AL POOL</span><span class="marquee-item">•</span>
+            <span class="marquee-item">30 DAI ENTRADA</span><span class="marquee-item">•</span>
+            <span class="marquee-item">103 PARTIDOS</span><span class="marquee-item">•</span>
+            <span class="marquee-item">GRANDES PREMIOS</span><span class="marquee-item">•</span>
+        </div>
+    </div>
+
+    <div class="stats">
+        <div class="stat-item">
+            <span class="stat-number">103</span>
+            <span class="stat-label">Partidos</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">30 DAI</span>
+            <span class="stat-label">Entrada</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">$30K+</span>
+            <span class="stat-label">En Premios</span>
+        </div>
+    </div>
+
+    <section>
+        <h2 class="section-title">¿Qué es CoinMatch Pool?</h2>
+        <p class="section-subtitle">Una plataforma de predicciones deportivas colaborativas para el Mundial 2026</p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <img src="icon-balon.png"
+                     alt="103 Partidos"
+                     class="feature-icon">
+                <h3>103 Partidos</h3>
+                <p>Predice el marcador exacto de todos los partidos del Mundial 2026</p>
+            </div>
+            <div class="feature-card">
+                <img src="icon-dai.png"
+                     alt="Premios en DAI"
+                     class="feature-icon">
+                <h3>Premios en DAI</h3>
+                <p>Todos los premios se pagan en DAI, una moneda estable igual a 1 USD</p>
+            </div>
+            <div class="feature-card">
+                <img src="icon-trofeo.png"
+                     alt="Pool Cerrado"
+                     class="feature-icon">
+                <h3>Pool Cerrado</h3>
+                <p>Compites solo contra otros participantes, sin casa de apuestas</p>
+            </div>
+            <div class="feature-card">
+                <img src="icon-candado.png"
+                     alt="Blockchain"
+                     class="feature-icon">
+                <h3>Blockchain</h3>
+                <p>Transparencia total con tecnología Polygon</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="como-funciona">
+        <h2 class="section-title">Cómo Funciona</h2>
+        <p class="section-subtitle">Únete en 4 pasos simples</p>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Regístrate</h3>
+                <p>Únete al bot de Telegram y crea tu cuenta</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Paga 30 DAI</h3>
+                <p>Envía tu entrada en la red Polygon</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Predice</h3>
+                <p>Ingresa tus pronósticos para los 103 partidos</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Gana</h3>
+                <p>Compite por grandes premios en DAI</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="premios">
+        <h2 class="section-title">Premios Garantizados</h2>
+        <p class="section-subtitle">Ejemplo con 1,000 participantes</p>
+
+        <div class="prizes-grid">
+            <div class="prize-card">
+                <div class="prize-amount">$10,000</div>
+                <div class="prize-label">1er Lugar</div>
+            </div>
+            <div class="prize-card">
+                <div class="prize-amount">$6,000</div>
+                <div class="prize-label">2do Lugar</div>
+            </div>
+            <div class="prize-card">
+                <div class="prize-amount">$4,000</div>
+                <div class="prize-label">3er Lugar</div>
+            </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 3rem; color: rgba(255, 255, 255, 0.7); font-size: 1.25rem;">
+            + Mini Torneos + Mystery Boxes + Referidos
+        </p>
+    </section>
+
+    <section class="cta-section"
+             id="unete">
+        <h2>¿Listo para Competir?</h2>
+        <p>Únete ahora y comienza a predecir el Mundial 2026</p>
+        <div class="cta-buttons">
+            <a href="https://t.me/CoinMatchPoolBot"
+               class="btn-neon"
+               target="_blank">Únete en Telegram</a>
+            <a href="/docs/intro"
+               class="btn-neon btn-neon-purple">Leer Whitepaper</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="/docs/intro">Whitepaper</a>
+                <a href="/docs/como-jugar">Cómo Jugar</a>
+                <a href="/docs/premios">Premios</a>
+                <a href="/docs/faq">FAQ</a>
+                <a href="/docs/roadmap">Roadmap</a>
+            </div>
+            <p class="copyright">© 2025 CoinMatch Pool. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
