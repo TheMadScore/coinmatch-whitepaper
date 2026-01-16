@@ -1,45 +1,48 @@
 /**
- * Global CSS – CoinMatch Pool
- * Optimizado para móvil sin zoom
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
  */
 
-/* ============================================ */
-/* VARIABLES BASE (INFIMA) */
-/* ============================================ */
-
+/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #00ff88;
+  --ifm-color-primary-dark: #00e67a;
+  --ifm-color-primary-darker: #00d970;
+  --ifm-color-primary-darkest: #00b35c;
+  --ifm-color-primary-light: #1aff94;
+  --ifm-color-primary-lighter: #2bff9c;
+  --ifm-color-primary-lightest: #4dffac;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.1);
 }
 
+/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #00ff88;
+  --ifm-color-primary-dark: #00e67a;
+  --ifm-color-primary-darker: #00d970;
+  --ifm-color-primary-darkest: #00b35c;
+  --ifm-color-primary-light: #1aff94;
+  --ifm-color-primary-lighter: #2bff9c;
+  --ifm-color-primary-lightest: #4dffac;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.15);
 }
 
 /* ============================================ */
-/* TIPOGRAFÍA OPTIMIZADA PARA MÓVIL */
+/* MOBILE OPTIMIZATIONS */
 /* ============================================ */
 
+/* Aumentar tamaño de letra en móvil */
 @media screen and (max-width: 768px) {
   :root {
     --ifm-font-size-base: 16px;
+    /* Aumentado de 14px o 15px por defecto */
     --ifm-line-height-base: 1.6;
+    /* Más espacio entre líneas */
   }
 
+  /* Títulos más grandes en móvil */
   h1 {
     font-size: 1.8rem !important;
   }
@@ -56,96 +59,138 @@
     font-size: 1.1rem !important;
   }
 
-  p,
-  li {
+  /* Párrafos con buen tamaño */
+  p {
     font-size: 16px !important;
     line-height: 1.6 !important;
   }
 
+  /* Listas con buen tamaño */
+  li {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+}
+
+/* ============================================ */
+/* TABLAS RESPONSIVE (SIN SCROLL HORIZONTAL) */
+/* ============================================ */
+
+/* Tablas ajustadas al ancho del contenedor */
+table {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: table !important;
+  border-collapse: collapse !important;
+  table-layout: auto !important;
+}
+
+/* Todas las celdas pueden envolver texto */
+table th,
+table td {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  hyphens: auto !important;
+}
+
+/* Optimización para móvil */
+@media screen and (max-width: 768px) {
+
+  /* Tablas en móvil - font más pequeño pero legible */
+  table {
+    font-size: 13px !important;
+  }
+
+  /* Headers de tabla */
+  table th {
+    font-size: 13px !important;
+    padding: 8px 6px !important;
+    font-weight: 600 !important;
+  }
+
+  /* Celdas de tabla */
+  table td {
+    font-size: 13px !important;
+    padding: 8px 6px !important;
+  }
+
+  /* Permitir que el texto se envuelva en todas las columnas */
+  table th,
+  table td {
+    min-width: 60px !important;
+    /* Ancho mínimo razonable */
+    max-width: none !important;
+  }
+
+  /* Primera columna (generalmente labels) puede ser más ancha */
+  table td:first-child,
+  table th:first-child {
+    min-width: 80px !important;
+  }
+}
+
+/* ============================================ */
+/* CONTENEDOR DE TABLAS */
+/* ============================================ */
+
+/* Asegurar que el contenedor de la tabla no cause overflow */
+.table-wrapper,
+.markdown table {
+  overflow-x: visible !important;
+  width: 100% !important;
+  margin: 1rem 0 !important;
+}
+
+/* ============================================ */
+/* MEJORAS ADICIONALES */
+/* ============================================ */
+
+/* Mejor espaciado en contenido markdown */
+@media screen and (max-width: 768px) {
   .markdown {
     padding: 0 1rem !important;
   }
-}
 
-/* ============================================ */
-/* TABLAS – BASE (DESKTOP) */
-/* ============================================ */
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: auto;
-}
-
-table th,
-table td {
-  padding: 10px;
-  text-align: left;
-  word-break: break-word;
-  overflow-wrap: break-word;
-}
-
-/* ============================================ */
-/* TABLAS RESPONSIVE – SCROLL SOLO EN MÓVIL */
-/* ============================================ */
-
-@media screen and (max-width: 768px) {
-  .markdown table {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
+  /* Imágenes responsive */
+  .markdown img {
+    max-width: 100% !important;
+    height: auto !important;
   }
 
-  .markdown th,
-  .markdown td {
-    font-size: 14px !important;
-    padding: 8px 6px !important;
-    white-space: normal;
+  /* Code blocks responsive */
+  .markdown pre {
+    font-size: 12px !important;
+    overflow-x: auto !important;
   }
 
-  .markdown th:first-child,
-  .markdown td:first-child {
-    min-width: 80px;
+  /* Blockquotes */
+  .markdown blockquote {
+    font-size: 15px !important;
+    padding: 0.8rem 1rem !important;
   }
 }
 
-/* ============================================ */
-/* CONTENIDO MARKDOWN */
-/* ============================================ */
-
-.markdown img {
-  max-width: 100%;
-  height: auto;
-}
-
-.markdown pre {
-  overflow-x: auto;
-  font-size: 13px;
-}
-
-/* ============================================ */
-/* TABLAS – MODO OSCURO */
-/* ============================================ */
-
+/* Mejoras de contraste para tablas en modo oscuro */
 [data-theme='dark'] table {
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(0, 255, 136, 0.2) !important;
 }
 
 [data-theme='dark'] table th {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 255, 136, 0.05) !important;
+  border-color: rgba(0, 255, 136, 0.2) !important;
 }
 
 [data-theme='dark'] table td {
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(0, 255, 136, 0.1) !important;
 }
 
+/* Hover en filas de tabla */
 table tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 255, 136, 0.02) !important;
 }
 
 [data-theme='dark'] table tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: rgba(0, 255, 136, 0.05) !important;
 }
