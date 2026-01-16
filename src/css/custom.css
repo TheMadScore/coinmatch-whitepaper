@@ -1,6 +1,7 @@
 /**
  * CoinMatch Pool - Docusaurus Theme
- * Colores: Verde neón #00ff88 | Púrpura #B24EFF
+ * Extraído de la landing oficial
+ * Verde neón: #00ff88 | Púrpura: #B24EFF | Fondo: #0a0e17
  */
 
 /* ============================================ */
@@ -14,12 +15,12 @@
   --ifm-color-primary-light: #1aff94;
   --ifm-color-primary-lighter: #2bff9c;
   --ifm-color-primary-lightest: #4dffac;
-  --ifm-background-color: #0a0a0f;
-  --ifm-background-surface-color: #0f0f15;
-  --ifm-navbar-background-color: #0a0a0f;
-  --ifm-footer-background-color: #0a0a0f;
+  --ifm-background-color: #0a0e17;
+  --ifm-background-surface-color: #0f1320;
+  --ifm-navbar-background-color: rgba(10, 14, 23, 0.95);
+  --ifm-footer-background-color: #050810;
   --ifm-code-font-size: 95%;
-  --ifm-font-color-base: #e0e0e0;
+  --ifm-font-color-base: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.1);
 }
 
@@ -31,44 +32,57 @@
   --ifm-color-primary-light: #1aff94;
   --ifm-color-primary-lighter: #2bff9c;
   --ifm-color-primary-lightest: #4dffac;
-  --ifm-background-color: #0a0a0f;
-  --ifm-background-surface-color: #0f0f15;
-  --ifm-navbar-background-color: #0a0a0f;
-  --ifm-footer-background-color: #0a0a0f;
-  --ifm-font-color-base: #e0e0e0;
+  --ifm-background-color: #0a0e17;
+  --ifm-background-surface-color: #0f1320;
+  --ifm-navbar-background-color: rgba(10, 14, 23, 0.95);
+  --ifm-footer-background-color: #050810;
+  --ifm-font-color-base: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.15);
 }
 
 /* ============================================ */
-/* FORZAR MODO OSCURO */
+/* FONDO Y BODY */
 /* ============================================ */
 html,
 body {
-  background-color: #0a0a0f !important;
+  background-color: #0a0e17 !important;
 }
 
 .main-wrapper {
-  background-color: #0a0a0f !important;
+  background-color: #0a0e17 !important;
+}
+
+article {
+  background-color: #0a0e17 !important;
 }
 
 /* ============================================ */
 /* NAVBAR */
 /* ============================================ */
 .navbar {
-  background-color: #0a0a0f !important;
-  border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+  background: rgba(10, 14, 23, 0.95) !important;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 255, 136, 0.1);
 }
 
 .navbar__title {
-  color: #00ff88 !important;
-  font-weight: 700;
+  background: linear-gradient(135deg, #00ff88, #B24EFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
 }
 
 .navbar__link {
-  color: #e0e0e0 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  transition: all 0.3s ease;
 }
 
 .navbar__link:hover {
+  color: #ffffff !important;
+}
+
+.navbar__link--active {
   color: #00ff88 !important;
 }
 
@@ -76,11 +90,12 @@ body {
 /* SIDEBAR */
 /* ============================================ */
 .menu {
-  background-color: #0a0a0f !important;
+  background-color: #0a0e17 !important;
 }
 
 .menu__link {
-  color: #a0a0a0 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  transition: all 0.3s ease;
 }
 
 .menu__link:hover {
@@ -98,11 +113,16 @@ body {
   background-color: rgba(0, 255, 136, 0.05) !important;
 }
 
+.menu__caret::before {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem !important;
+  filter: brightness(0) saturate(100%) invert(84%) sepia(46%) saturate(1352%) hue-rotate(93deg) brightness(102%) contrast(104%);
+}
+
 /* ============================================ */
-/* TABLE OF CONTENTS (RIGHT SIDEBAR) */
+/* TABLE OF CONTENTS (SIDEBAR DERECHO) */
 /* ============================================ */
 .table-of-contents__link {
-  color: #a0a0a0 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 .table-of-contents__link:hover {
@@ -115,17 +135,28 @@ body {
 }
 
 /* ============================================ */
-/* CONTENT AREA */
+/* CONTENIDO MARKDOWN */
 /* ============================================ */
-article {
-  background-color: #0a0a0f !important;
-}
-
 .markdown {
-  color: #e0e0e0;
+  color: rgba(255, 255, 255, 0.85);
 }
 
-/* Links */
+.markdown h1,
+.markdown h2 {
+  background: linear-gradient(135deg, #ffffff, #00ff88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.markdown h3 {
+  color: #00ff88 !important;
+}
+
+.markdown h4 {
+  color: #B24EFF !important;
+}
+
 .markdown a {
   color: #00ff88 !important;
 }
@@ -135,11 +166,20 @@ article {
   text-decoration: none;
 }
 
+.markdown p,
+.markdown li {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.markdown strong {
+  color: #ffffff;
+}
+
 /* ============================================ */
 /* BREADCRUMBS */
 /* ============================================ */
 .breadcrumbs__link {
-  color: #a0a0a0 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 .breadcrumbs__link:hover {
@@ -191,8 +231,8 @@ table {
   display: table !important;
   border-collapse: collapse !important;
   table-layout: fixed !important;
-  background-color: rgba(255, 255, 255, 0.02) !important;
-  border: 1px solid rgba(0, 255, 136, 0.2) !important;
+  background: rgba(10, 20, 35, 0.6) !important;
+  border: 1px solid rgba(0, 255, 136, 0.3) !important;
 }
 
 table th,
@@ -202,13 +242,18 @@ table td {
   white-space: normal !important;
   overflow-wrap: break-word !important;
   hyphens: auto !important;
-  border: 1px solid rgba(0, 255, 136, 0.1) !important;
+  border: 1px solid rgba(0, 255, 136, 0.2) !important;
 }
 
 table th {
-  background-color: rgba(0, 255, 136, 0.1) !important;
+  background: rgba(0, 255, 136, 0.1) !important;
   color: #00ff88 !important;
   font-weight: 600 !important;
+}
+
+table td {
+  color: rgba(255, 255, 255, 0.7) !important;
+  border-color: rgba(0, 255, 136, 0.1) !important;
 }
 
 table tbody tr:hover {
@@ -265,7 +310,8 @@ table tbody tr:hover {
   .markdown blockquote {
     font-size: 15px !important;
     padding: 0.8rem 1rem !important;
-    border-left-color: #B24EFF !important;
+    border-left: 4px solid #B24EFF !important;
+    background: rgba(178, 78, 255, 0.1) !important;
   }
 }
 
@@ -273,21 +319,49 @@ table tbody tr:hover {
 /* CODE BLOCKS */
 /* ============================================ */
 pre {
-  background-color: #0f0f15 !important;
+  background: rgba(10, 20, 35, 0.7) !important;
   border: 1px solid rgba(0, 255, 136, 0.2) !important;
 }
 
 code {
   color: #00ff88 !important;
-  background-color: rgba(0, 255, 136, 0.1) !important;
+  background: rgba(0, 255, 136, 0.1) !important;
+}
+
+pre code {
+  color: rgba(255, 255, 255, 0.85) !important;
+  background: transparent !important;
+}
+
+/* ============================================ */
+/* ADMONITIONS / ALERTAS */
+/* ============================================ */
+.alert--info {
+  background: rgba(0, 255, 136, 0.1) !important;
+  border-left: 4px solid #00ff88 !important;
+}
+
+.alert--warning {
+  background: rgba(245, 158, 11, 0.1) !important;
+  border-left: 4px solid #f59e0b !important;
+}
+
+.alert--danger {
+  background: rgba(239, 68, 68, 0.1) !important;
+  border-left: 4px solid #ef4444 !important;
+}
+
+.alert--success {
+  background: rgba(0, 255, 136, 0.15) !important;
+  border-left: 4px solid #00ff88 !important;
 }
 
 /* ============================================ */
 /* FOOTER */
 /* ============================================ */
 .footer {
-  background-color: #0a0a0f !important;
-  border-top: 1px solid rgba(0, 255, 136, 0.2);
+  background: #050810 !important;
+  border-top: 1px solid rgba(0, 255, 136, 0.1);
 }
 
 .footer__title {
@@ -295,9 +369,47 @@ code {
 }
 
 .footer__link-item {
-  color: #a0a0a0 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 .footer__link-item:hover {
   color: #00ff88 !important;
+}
+
+.footer__copyright {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* ============================================ */
+/* PAGINATION */
+/* ============================================ */
+.pagination-nav__link {
+  background: rgba(10, 20, 35, 0.6) !important;
+  border: 1px solid rgba(0, 255, 136, 0.2) !important;
+}
+
+.pagination-nav__link:hover {
+  border-color: #00ff88 !important;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+}
+
+.pagination-nav__label {
+  color: #00ff88 !important;
+}
+
+.pagination-nav__sublabel {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* ============================================ */
+/* SEARCH */
+/* ============================================ */
+.DocSearch-Button {
+  background: rgba(10, 20, 35, 0.6) !important;
+  border: 1px solid rgba(0, 255, 136, 0.2) !important;
+}
+
+.DocSearch-Button:hover {
+  border-color: #00ff88 !important;
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
 }
