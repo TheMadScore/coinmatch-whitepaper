@@ -28,7 +28,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: 'docs',
+          routeBasePath: '/',
         },
         blog: false,
         theme: {
