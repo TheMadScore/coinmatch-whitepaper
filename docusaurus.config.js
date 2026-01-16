@@ -8,7 +8,7 @@ const config = {
   favicon: 'img/favicon.svg',
 
   url: 'https://themadscore.github.io',
-  baseUrl: '/',
+  baseUrl: '/coinmatch-whitepaper/',
 
   organizationName: 'TheMadScore',
   projectName: 'coinmatch-docusaurus',
