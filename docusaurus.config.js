@@ -21,6 +21,17 @@ const config = {
     locales: ['es'],
   },
 
+  // Configuración del head para deshabilitar zoom
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no',
+      },
+    },
+  ],
+
   presets: [
     [
       'classic',
