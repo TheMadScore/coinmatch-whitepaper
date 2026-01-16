@@ -1,10 +1,11 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * CoinMatch Pool - Docusaurus Theme
+ * Colores: Verde neón #00ff88 | Púrpura #B24EFF
  */
 
-/* You can override the default Infima variables here. */
+/* ============================================ */
+/* VARIABLES BASE - COINMATCH POOL */
+/* ============================================ */
 :root {
   --ifm-color-primary: #00ff88;
   --ifm-color-primary-dark: #00e67a;
@@ -13,11 +14,15 @@
   --ifm-color-primary-light: #1aff94;
   --ifm-color-primary-lighter: #2bff9c;
   --ifm-color-primary-lightest: #4dffac;
+  --ifm-background-color: #0a0a0f;
+  --ifm-background-surface-color: #0f0f15;
+  --ifm-navbar-background-color: #0a0a0f;
+  --ifm-footer-background-color: #0a0a0f;
   --ifm-code-font-size: 95%;
+  --ifm-font-color-base: #e0e0e0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #00ff88;
   --ifm-color-primary-dark: #00e67a;
@@ -26,23 +31,134 @@
   --ifm-color-primary-light: #1aff94;
   --ifm-color-primary-lighter: #2bff9c;
   --ifm-color-primary-lightest: #4dffac;
+  --ifm-background-color: #0a0a0f;
+  --ifm-background-surface-color: #0f0f15;
+  --ifm-navbar-background-color: #0a0a0f;
+  --ifm-footer-background-color: #0a0a0f;
+  --ifm-font-color-base: #e0e0e0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.15);
+}
+
+/* ============================================ */
+/* FORZAR MODO OSCURO */
+/* ============================================ */
+html,
+body {
+  background-color: #0a0a0f !important;
+}
+
+.main-wrapper {
+  background-color: #0a0a0f !important;
+}
+
+/* ============================================ */
+/* NAVBAR */
+/* ============================================ */
+.navbar {
+  background-color: #0a0a0f !important;
+  border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+}
+
+.navbar__title {
+  color: #00ff88 !important;
+  font-weight: 700;
+}
+
+.navbar__link {
+  color: #e0e0e0 !important;
+}
+
+.navbar__link:hover {
+  color: #00ff88 !important;
+}
+
+/* ============================================ */
+/* SIDEBAR */
+/* ============================================ */
+.menu {
+  background-color: #0a0a0f !important;
+}
+
+.menu__link {
+  color: #a0a0a0 !important;
+}
+
+.menu__link:hover {
+  color: #00ff88 !important;
+  background-color: rgba(0, 255, 136, 0.1) !important;
+}
+
+.menu__link--active {
+  color: #00ff88 !important;
+  background-color: rgba(0, 255, 136, 0.15) !important;
+  border-left: 3px solid #00ff88;
+}
+
+.menu__list-item-collapsible:hover {
+  background-color: rgba(0, 255, 136, 0.05) !important;
+}
+
+/* ============================================ */
+/* TABLE OF CONTENTS (RIGHT SIDEBAR) */
+/* ============================================ */
+.table-of-contents__link {
+  color: #a0a0a0 !important;
+}
+
+.table-of-contents__link:hover {
+  color: #00ff88 !important;
+}
+
+.table-of-contents__link--active {
+  color: #B24EFF !important;
+  font-weight: 600;
+}
+
+/* ============================================ */
+/* CONTENT AREA */
+/* ============================================ */
+article {
+  background-color: #0a0a0f !important;
+}
+
+.markdown {
+  color: #e0e0e0;
+}
+
+/* Links */
+.markdown a {
+  color: #00ff88 !important;
+}
+
+.markdown a:hover {
+  color: #B24EFF !important;
+  text-decoration: none;
+}
+
+/* ============================================ */
+/* BREADCRUMBS */
+/* ============================================ */
+.breadcrumbs__link {
+  color: #a0a0a0 !important;
+}
+
+.breadcrumbs__link:hover {
+  color: #00ff88 !important;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: #00ff88 !important;
 }
 
 /* ============================================ */
 /* MOBILE OPTIMIZATIONS */
 /* ============================================ */
-
-/* Aumentar tamaño de letra en móvil */
 @media screen and (max-width: 768px) {
   :root {
     --ifm-font-size-base: 16px;
-    /* Aumentado de 14px o 15px por defecto */
     --ifm-line-height-base: 1.6;
-    /* Más espacio entre líneas */
   }
 
-  /* Títulos más grandes en móvil */
   h1 {
     font-size: 1.8rem !important;
   }
@@ -59,13 +175,7 @@
     font-size: 1.1rem !important;
   }
 
-  /* Párrafos con buen tamaño */
-  p {
-    font-size: 16px !important;
-    line-height: 1.6 !important;
-  }
-
-  /* Listas con buen tamaño */
+  p,
   li {
     font-size: 16px !important;
     line-height: 1.6 !important;
@@ -73,19 +183,18 @@
 }
 
 /* ============================================ */
-/* TABLAS RESPONSIVE (SIN SCROLL HORIZONTAL) */
+/* TABLAS RESPONSIVE */
 /* ============================================ */
-
-/* Tablas ajustadas al ancho del contenedor */
 table {
   width: 100% !important;
   max-width: 100% !important;
   display: table !important;
   border-collapse: collapse !important;
-  table-layout: auto !important;
+  table-layout: fixed !important;
+  background-color: rgba(255, 255, 255, 0.02) !important;
+  border: 1px solid rgba(0, 255, 136, 0.2) !important;
 }
 
-/* Todas las celdas pueden envolver texto */
 table th,
 table td {
   word-wrap: break-word !important;
@@ -93,38 +202,32 @@ table td {
   white-space: normal !important;
   overflow-wrap: break-word !important;
   hyphens: auto !important;
+  border: 1px solid rgba(0, 255, 136, 0.1) !important;
 }
 
-/* Optimización para móvil */
-@media screen and (max-width: 768px) {
+table th {
+  background-color: rgba(0, 255, 136, 0.1) !important;
+  color: #00ff88 !important;
+  font-weight: 600 !important;
+}
 
-  /* Tablas en móvil - font más pequeño pero legible */
+table tbody tr:hover {
+  background-color: rgba(178, 78, 255, 0.1) !important;
+}
+
+@media screen and (max-width: 768px) {
   table {
     font-size: 13px !important;
   }
 
-  /* Headers de tabla */
-  table th {
-    font-size: 13px !important;
-    padding: 8px 6px !important;
-    font-weight: 600 !important;
-  }
-
-  /* Celdas de tabla */
-  table td {
-    font-size: 13px !important;
-    padding: 8px 6px !important;
-  }
-
-  /* Permitir que el texto se envuelva en todas las columnas */
   table th,
   table td {
+    font-size: 13px !important;
+    padding: 8px 6px !important;
     min-width: 60px !important;
-    /* Ancho mínimo razonable */
     max-width: none !important;
   }
 
-  /* Primera columna (generalmente labels) puede ser más ancha */
   table td:first-child,
   table th:first-child {
     min-width: 80px !important;
@@ -134,63 +237,67 @@ table td {
 /* ============================================ */
 /* CONTENEDOR DE TABLAS */
 /* ============================================ */
-
-/* Asegurar que el contenedor de la tabla no cause overflow */
 .table-wrapper,
 .markdown table {
-  overflow-x: visible !important;
+  overflow-x: auto !important;
   width: 100% !important;
   margin: 1rem 0 !important;
 }
 
 /* ============================================ */
-/* MEJORAS ADICIONALES */
+/* MEJORAS ADICIONALES MÓVIL */
 /* ============================================ */
-
-/* Mejor espaciado en contenido markdown */
 @media screen and (max-width: 768px) {
   .markdown {
     padding: 0 1rem !important;
   }
 
-  /* Imágenes responsive */
   .markdown img {
     max-width: 100% !important;
     height: auto !important;
   }
 
-  /* Code blocks responsive */
   .markdown pre {
     font-size: 12px !important;
     overflow-x: auto !important;
   }
 
-  /* Blockquotes */
   .markdown blockquote {
     font-size: 15px !important;
     padding: 0.8rem 1rem !important;
+    border-left-color: #B24EFF !important;
   }
 }
 
-/* Mejoras de contraste para tablas en modo oscuro */
-[data-theme='dark'] table {
-  border-color: rgba(0, 255, 136, 0.2) !important;
+/* ============================================ */
+/* CODE BLOCKS */
+/* ============================================ */
+pre {
+  background-color: #0f0f15 !important;
+  border: 1px solid rgba(0, 255, 136, 0.2) !important;
 }
 
-[data-theme='dark'] table th {
-  background-color: rgba(0, 255, 136, 0.05) !important;
-  border-color: rgba(0, 255, 136, 0.2) !important;
+code {
+  color: #00ff88 !important;
+  background-color: rgba(0, 255, 136, 0.1) !important;
 }
 
-[data-theme='dark'] table td {
-  border-color: rgba(0, 255, 136, 0.1) !important;
+/* ============================================ */
+/* FOOTER */
+/* ============================================ */
+.footer {
+  background-color: #0a0a0f !important;
+  border-top: 1px solid rgba(0, 255, 136, 0.2);
 }
 
-/* Hover en filas de tabla */
-table tbody tr:hover {
-  background-color: rgba(0, 255, 136, 0.02) !important;
+.footer__title {
+  color: #00ff88 !important;
 }
 
-[data-theme='dark'] table tbody tr:hover {
-  background-color: rgba(0, 255, 136, 0.05) !important;
+.footer__link-item {
+  color: #a0a0a0 !important;
+}
+
+.footer__link-item:hover {
+  color: #00ff88 !important;
 }
