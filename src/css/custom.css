@@ -273,6 +273,10 @@ table tbody tr:hover {
     height: auto !important;
   }
 
+  .markdown img[alt="CoinMatch Pool Hero"] {
+    width: 100% !important;
+  }
+
   .markdown pre {
     font-size: 12px !important;
     overflow-x: auto !important;
