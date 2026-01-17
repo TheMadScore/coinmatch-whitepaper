@@ -14,10 +14,10 @@
   --ifm-color-primary-light: #1aff94;
   --ifm-color-primary-lighter: #2bff9c;
   --ifm-color-primary-lightest: #4dffac;
-  --ifm-background-color: #0a0a0f;
-  --ifm-background-surface-color: #0f0f15;
-  --ifm-navbar-background-color: #0a0a0f;
-  --ifm-footer-background-color: #0a0a0f;
+  --ifm-background-color: #0a0e17;
+  --ifm-background-surface-color: #0f1320;
+  --ifm-navbar-background-color: #0a0e17;
+  --ifm-footer-background-color: #0a0e17;
   --ifm-code-font-size: 95%;
   --ifm-font-color-base: #e0e0e0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.1);
@@ -31,32 +31,64 @@
   --ifm-color-primary-light: #1aff94;
   --ifm-color-primary-lighter: #2bff9c;
   --ifm-color-primary-lightest: #4dffac;
-  --ifm-background-color: #0a0a0f;
-  --ifm-background-surface-color: #0f0f15;
-  --ifm-navbar-background-color: #0a0a0f;
-  --ifm-footer-background-color: #0a0a0f;
+  --ifm-background-color: #0a0e17;
+  --ifm-background-surface-color: #0f1320;
+  --ifm-navbar-background-color: #0a0e17;
+  --ifm-footer-background-color: #0a0e17;
   --ifm-font-color-base: #e0e0e0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 255, 136, 0.15);
 }
 
 /* ============================================ */
-/* FORZAR MODO OSCURO */
+/* FONDO CON GRADIENTE Y PARTÍCULAS */
 /* ============================================ */
 html,
 body {
-  background-color: #0a0a0f !important;
+  background:
+    radial-gradient(ellipse at top, rgba(178, 78, 255, 0.08), transparent 70%),
+    radial-gradient(ellipse at bottom, rgba(0, 255, 136, 0.06), transparent 70%),
+    #0a0e17 !important;
 }
 
 .main-wrapper {
-  background-color: #0a0a0f !important;
+  background: transparent !important;
+  position: relative;
+}
+
+.main-wrapper::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background-image:
+    radial-gradient(circle, rgba(0, 255, 136, 0.3) 1px, transparent 1px),
+    radial-gradient(circle, rgba(178, 78, 255, 0.25) 1px, transparent 1px);
+  background-size: 70px 70px, 90px 90px;
+  background-position: 0 0, 35px 45px;
+  opacity: 0.25;
+}
+
+/* ============================================ */
+/* TÍTULOS */
+/* ============================================ */
+.markdown h1,
+.markdown h2 {
+  color: #00ff88 !important;
+}
+
+.markdown h3,
+.markdown h4 {
+  color: #B24EFF !important;
 }
 
 /* ============================================ */
 /* NAVBAR */
 /* ============================================ */
 .navbar {
-  background-color: #0a0a0f !important;
-  border-bottom: 1px solid rgba(0, 255, 136, 0.2);
+  background-color: rgba(10, 14, 23, 0.95) !important;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(0, 255, 136, 0.1);
 }
 
 .navbar__title {
@@ -73,29 +105,24 @@ body {
 }
 
 /* ============================================ */
-/* SIDEBAR */
+/* CONTENT AREA */
 /* ============================================ */
-.menu {
-  background-color: #0a0a0f !important;
+article {
+  background-color: transparent !important;
 }
 
-.menu__link {
-  color: #a0a0a0 !important;
+.markdown {
+  color: #e0e0e0;
 }
 
-.menu__link:hover {
+/* Links */
+.markdown a {
   color: #00ff88 !important;
-  background-color: rgba(0, 255, 136, 0.1) !important;
 }
 
-.menu__link--active {
-  color: #00ff88 !important;
-  background-color: rgba(0, 255, 136, 0.15) !important;
-  border-left: 3px solid #00ff88;
-}
-
-.menu__list-item-collapsible:hover {
-  background-color: rgba(0, 255, 136, 0.05) !important;
+.markdown a:hover {
+  color: #B24EFF !important;
+  text-decoration: none;
 }
 
 /* ============================================ */
@@ -112,27 +139,6 @@ body {
 .table-of-contents__link--active {
   color: #B24EFF !important;
   font-weight: 600;
-}
-
-/* ============================================ */
-/* CONTENT AREA */
-/* ============================================ */
-article {
-  background-color: #0a0a0f !important;
-}
-
-.markdown {
-  color: #e0e0e0;
-}
-
-/* Links */
-.markdown a {
-  color: #00ff88 !important;
-}
-
-.markdown a:hover {
-  color: #B24EFF !important;
-  text-decoration: none;
 }
 
 /* ============================================ */
@@ -273,7 +279,7 @@ table tbody tr:hover {
 /* CODE BLOCKS */
 /* ============================================ */
 pre {
-  background-color: #0f0f15 !important;
+  background-color: #0f1320 !important;
   border: 1px solid rgba(0, 255, 136, 0.2) !important;
 }
 
@@ -286,8 +292,8 @@ code {
 /* FOOTER */
 /* ============================================ */
 .footer {
-  background-color: #0a0a0f !important;
-  border-top: 1px solid rgba(0, 255, 136, 0.2);
+  background-color: #050810 !important;
+  border-top: 1px solid rgba(0, 255, 136, 0.1);
 }
 
 .footer__title {
