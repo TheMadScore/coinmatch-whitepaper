@@ -6,8 +6,6 @@ sidebar_position: 1
 
 #
 
-## Plataforma de predicciones deportivas colaborativas para el Mundial 2026
-
 CoinMatch Pool (CMP) es una plataforma digital de competencia basada en habilidad y conocimiento deportivo, en la que los participantes pronostican el resultado exacto de 103 partidos oficiales del Mundial 2026 (Estados Unidos, Canadá y México).
 
 ---
