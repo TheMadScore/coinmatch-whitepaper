@@ -43,11 +43,16 @@
 /* FORZAR MODO OSCURO CON GRADIENTE */
 /* ============================================ */
 html,
-body {
+body,
+#__docusaurus {
   background:
     radial-gradient(ellipse at top, rgba(178, 78, 255, 0.08), transparent 70%),
     radial-gradient(ellipse at bottom, rgba(0, 255, 136, 0.06), transparent 70%),
     #0a0e17 !important;
+  touch-action: pan-x pan-y;
+}
+
+* {
   touch-action: manipulation;
 }
 
