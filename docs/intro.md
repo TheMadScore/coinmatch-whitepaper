@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-![CoinMatch Pool Hero](/img/hero.svg)
+<h1 className="hero-title">CoinMatch Pool</h1>
 
 #
 

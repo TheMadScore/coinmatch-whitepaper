@@ -3,8 +3,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CoinMatch Pool',
-  tagline: 'Polla del Mundial 2026',
+  title: 'Whitepaper',
+  tagline: 'CoinMatch Pool',
   favicon: 'img/favicon.svg',
 
   url: 'https://themadscore.github.io',
@@ -55,7 +55,7 @@ const config = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'CoinMatch Pool',
+      title: 'Whitepaper',
       items: [],
     },
     footer: {
