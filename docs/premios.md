@@ -4,11 +4,13 @@ Todas las formas de ganar en CoinMatch Pool.
 
 ---
 
-## 🎁 Programa de Acceso Temprano
+## 🎁 Programa de Acceso Temprano (Whitelist)
 
-### Entradas Gratis (Torneos Beta)
+**Los primeros 100 usuarios registrados antes del 31 de marzo 2026:**
 
-Antes de pagar tu entrada, puedes ganarla gratis compitiendo en torneos Beta:
+### 1. 🏆 Torneos Beta (Entradas Gratis)
+
+Acceso exclusivo para competir en torneos Beta y ganar tu entrada gratis:
 
 | Torneo     | Competencia       | Fecha      | Premio 1er Lugar                     |
 | ---------- | ----------------- | ---------- | ------------------------------------ |
@@ -16,11 +18,44 @@ Antes de pagar tu entrada, puedes ganarla gratis compitiendo en torneos Beta:
 | **Beta 2** | Copa Libertadores | Abril 2026 | Entrada gratis CoinMatch del Mundial |
 | **Beta 3** | Champions League  | Mayo 2026  | Entrada gratis CoinMatch del Mundial |
 
-**Solo el 1er lugar** de cada torneo gana entrada gratis ($30).
+**Solo el 1er lugar** de cada torneo gana entrada gratis ($30).  
+**Solo usuarios whitelist** pueden participar.
 
-**Total ganadores:** 3 personas
+### 2. 💬 Founders Lounge (Telegram)
 
-Más info en [Cómo Jugar](como-jugar.md)
+Acceso a grupo privado exclusivo en Telegram:
+
+- Comunicación directa con el equipo
+- Updates anticipados de la plataforma
+- Networking con otros founders
+- Voz en decisiones del proyecto
+
+### 3. 🎁 Rifa Mystery Boxes Exclusiva
+
+Cada usuario whitelist recibe **1 caja de rifa especial**:
+
+- Algunas cajas contienen premios RAROS o ÉPICOS
+- Otras cajas están vacías
+- Cajas bloqueadas hasta el 11 de junio 2026
+- Se abren solo al inicio del Mundial
+
+### 4. 🏅 Insignia "Founder"
+
+Badge exclusivo visible en:
+
+- Tu perfil público
+- Rankings y leaderboards
+- Reconocimiento permanente como early supporter
+
+### Cómo Unirte a la Whitelist:
+
+1. Regístrate en **https://coinmatchpool.com**
+2. Conecta tu wallet de Polygon
+3. Vincula tu usuario de Telegram
+4. ✅ Recibes confirmación de whitelist
+
+**Límite:** Solo 100 spots disponibles  
+**Fecha límite:** 31 de marzo 2026
 
 ---
 
