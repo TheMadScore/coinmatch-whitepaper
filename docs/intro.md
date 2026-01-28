@@ -6,7 +6,7 @@ sidebar_position: 1
 
 #
 
-CoinMatch Pool (CMP) es una plataforma digital de competencia basada en habilidad y conocimiento deportivo, en la que los participantes pronostican el resultado exacto de 103 partidos oficiales del Mundial 2026 (Estados Unidos, Canadá y México).
+Bienvenido a CoinMatch Pool (CMP). Somos una plataforma digital de competencia basada en habilidad y conocimiento deportivo, en la que los participantes pronostican el resultado exacto de 103 partidos oficiales del Mundial 2026 (Estados Unidos, Canadá y México).
 
 ---
 
@@ -32,7 +32,7 @@ Los premios se distribuyen en DAI, una moneda digital estable cuyo valor está d
 - **Pool Principal:** Top 3 ganan (50% / 30% / 20%)
 - **Mini Torneos:** Premios por jornada
 - **Mystery Boxes:** Premios sorpresa
-- **Referidos:** 1.5 DAI (≈ 1.50 USD) por cada participante referido
+- **Referidos:** 2 DAI (≈ 2.00 USD) por cada participante referido
 
 ---
 
@@ -45,7 +45,10 @@ Antes del Mundial, ofrecemos inscripción gratuita con beneficios exclusivos:
 - ✅ Acceso a torneos Beta (2 meses antes del Mundial)
 - ✅ Oportunidad de ganar entrada gratis
 - ✅ Aprender el sistema sin riesgo
-- ✅ Prioridad en actualizaciones
+- ✅ Prioridad en
+- ✅ Founder Lounge Telegram
+- ✅ Rifa Mystery Boxes exclusiva
+- ✅ Insignia Founder
 
 **Registro:** Solo requiere Telegram y conexión de wallet
 
