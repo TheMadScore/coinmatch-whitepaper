@@ -38,19 +38,25 @@ Los premios se distribuyen en DAI, una moneda digital estable cuyo valor está d
 
 ## Programa de Acceso Temprano
 
-### Whitelist Gratuita (Marzo 2026)
+### Whitelist - Primeros 100 Usuarios (Hasta 31 Marzo 2026)
 
-Antes del Mundial, ofrecemos inscripción gratuita con beneficios exclusivos:
+Al registrarte en la whitelist pagas tu entrada de **30 DAI** y recibes beneficios exclusivos:
 
-- ✅ Acceso a torneos Beta (2 meses antes del Mundial)
-- ✅ Oportunidad de ganar entrada gratis
-- ✅ Aprender el sistema sin riesgo
-- ✅ Prioridad en
-- ✅ Founder Lounge Telegram
-- ✅ Rifa Mystery Boxes exclusiva
-- ✅ Insignia Founder
+✅ Acceso a Torneos Beta (Abril-Mayo 2026)
+✅ Si ganas un torneo Beta → **Devolución de $30 DAI**
+✅ Si no ganas → Ya estás inscrito para el Mundial
+✅ Founders Lounge (Telegram privado)
+✅ Rifa Mystery Boxes exclusiva
+✅ Insignia "Founder" permanente
 
-**Registro:** Solo requiere Telegram y conexión de wallet
+**Registro requiere:**
+
+- Cuenta de Telegram
+- Wallet de Polygon
+- Pago de 30 DAI
+
+**Límite:** Solo 100 spots disponibles
+**Fecha límite:** 31 marzo 2026
 
 ### Torneos Beta (Abril-Mayo 2026)
 
