@@ -1,66 +1,64 @@
-﻿---
-sidebar_position: 1
----
+﻿# CoinMatch Pool
 
-<h1 className="hero-title">CoinMatch Pool</h1>
-
-#
-
-Bienvenido a CoinMatch Pool (CMP). Somos una plataforma digital de competencia basada en habilidad y conocimiento deportivo, en la que los participantes pronostican el resultado exacto de 103 partidos oficiales del Mundial 2026 (Estados Unidos, Canadá y México).
+Bienvenido a CoinMatch Pool (CMP). Somos una plataforma digital de competencia basada en habilidad y conocimiento deportivo, donde los participantes pronostican el resultado exacto de **103 partidos oficiales del Mundial 2026** (Estados Unidos, Canadá y México).
 
 ---
 
 ## ¿Qué es CoinMatch Pool?
 
-CMP funciona como un pool cerrado de predicciones en el que los usuarios compiten entre sí, sin intermediarios ni fijación de cuotas, y donde los resultados dependen del análisis deportivo, no del azar.
+CoinMatch Pool funciona como un **pool cerrado de predicciones**: todos los participantes compiten entre sí, sin intermediarios ni cuotas, y los resultados dependen del **análisis deportivo**, no del azar.
 
-En países de habla hispana, este formato es tradicionalmente conocido como polla, quiniela, penca o prode; sin embargo, en CoinMatch Pool se estructura como una competencia digital moderna, alineada con principios de transparencia, trazabilidad y consistencia competitiva.
+En países de habla hispana este formato es conocido como **polla, quiniela, penca o prode**. En CMP se presenta como una competencia digital moderna, con reglas claras y resultados verificables.
 
 ### ¿Por qué 103 partidos?
 
-Aunque el Mundial 2026 contará con 104 partidos oficiales, CMP excluye el partido por el 3.º y 4.º puesto. Esta decisión responde a criterios de consistencia competitiva, dado que dicho encuentro suele presentar una elevada variabilidad en alineaciones, motivación y enfoque táctico, lo que reduce la calidad predictiva del modelo.
+Aunque el Mundial 2026 tendrá 104 partidos oficiales, CMP excluye el partido por el 3.º y 4.º puesto. Este encuentro suele tener alta variabilidad (rotaciones, baja motivación competitiva), lo que reduce la calidad de las predicciones.
 
 ### No es una casa de apuestas
 
-CoinMatch Pool opera como un sistema de competencia entre participantes, y no como una casa de apuestas. Se trata de un pool cerrado, sin rol de intermediación ni fijación de cuotas, en el que los fondos aportados se redistribuyen íntegramente entre los participantes mejor clasificados, utilizando tecnología blockchain para garantizar trazabilidad y transparencia.
+CoinMatch Pool **no es una casa de apuestas**:
+
+- No fija cuotas
+- No apuesta contra los usuarios
+- No actúa como intermediario
+
+Los fondos aportados por los participantes se redistribuyen entre quienes obtienen los mejores resultados. La tecnología blockchain se utiliza para garantizar **transparencia y trazabilidad**.
 
 ### Premios en DAI
 
-Los premios se distribuyen en DAI, una moneda digital estable cuyo valor está diseñado para mantenerse igual a 1 USD.
+Todos los premios se pagan en **DAI**, una moneda digital estable cuyo valor está diseñado para mantenerse cercano a **1 USD**.
 
 - **Entrada:** 30 DAI (≈ 30 USD)
 - **Pool Principal:** Top 3 ganan (50% / 30% / 20%)
 - **Mini Torneos:** Premios por jornada
 - **Mystery Boxes:** Premios sorpresa
-- **Referidos:** 2 DAI (≈ 2.00 USD) por cada participante referido
+- **Referidos:** 2 DAI (≈ 2 USD) por cada participante referido (opcional al registrarse)
 
 ---
 
-## Programa de Acceso Temprano
+### Whitelist – Primeros 100 Usuarios (Hasta 31 Marzo 2026)
 
-### Whitelist - Primeros 100 Usuarios (Hasta 31 Marzo 2026)
+Al registrarte en la whitelist pagas tu entrada de **30 DAI** y recibes los siguientes beneficios:
 
-Al registrarte en la whitelist pagas tu entrada de **30 DAI** y recibes beneficios exclusivos:
-
-✅ Acceso a Torneos Beta (Abril-Mayo 2026)
-✅ Si ganas un torneo Beta → **Devolución de $30 DAI**
-✅ Si no ganas → Ya estás inscrito para el Mundial
-✅ Founders Lounge (Telegram privado)
-✅ Rifa Mystery Boxes exclusiva
-✅ Insignia "Founder" permanente
+- ✅ Acceso a **Torneos Beta** (Abril–Mayo 2026)
+- ✅ Si ganas un torneo Beta → **Devolución completa de tus 30 DAI**
+- ✅ Si no ganas → Quedas automáticamente inscrito al CoinMatch del Mundial 2026
+- ✅ Acceso al **Founders Lounge** (Telegram privado)
+- ✅ Participación en **rifa exclusiva de Mystery Boxes**
+- ✅ **Insignia permanente "Founder"** en tu perfil
 
 **Registro requiere:**
 
-- Cuenta de Telegram
-- Wallet de Polygon
-- Pago de 30 DAI
+- Cuenta de Telegram (para comunicación y acceso)
+- Wallet de Polygon (billetera digital para enviar y recibir dinero digital)
+- Pago único de 30 DAI
 
-**Límite:** Solo 100 spots disponibles
+**Límite:** Solo 100 spots disponibles  
 **Fecha límite:** 31 marzo 2026
 
-### Torneos Beta (Abril-Mayo 2026)
+### Torneos Beta (Abril–Mayo 2026)
 
-Usuarios de whitelist participan en 3 torneos de práctica **gratuitos**:
+Los usuarios de la whitelist participan en **3 torneos de práctica**, diseñados para aprender la dinámica del juego antes del Mundial.
 
 | Torneo     | Competencia       | Partidos | Premio 1er Lugar                     |
 | ---------- | ----------------- | -------- | ------------------------------------ |
@@ -68,20 +66,20 @@ Usuarios de whitelist participan en 3 torneos de práctica **gratuitos**:
 | **Beta 2** | Copa Libertadores | 8        | Entrada gratis CoinMatch del Mundial |
 | **Beta 3** | Champions League  | 6        | Entrada gratis CoinMatch del Mundial |
 
-**Mecánica:** Solo el **1er lugar** de cada torneo gana entrada gratis ($30) al CoinMatch del Mundial 2026.
+**Mecánica:** Solo el **1er lugar** de cada torneo Beta gana la **devolución de su inscripción** al CoinMatch del Mundial 2026.
 
-**Total ganadores:** 3 personas (1 ganador por torneo Beta)
+**Total de ganadores:** 3 personas (1 ganador por torneo Beta)
 
 ### Timeline Completo
 
-| Fecha          | Evento                      |
-| -------------- | --------------------------- |
-| **Marzo 2026** | Apertura whitelist (gratis) |
-| **Abril-Mayo** | Torneos Beta                |
-| **Junio 1-9**  | Pagos de entrada ($30)      |
-| **Junio 11**   | Inicio Mundial 2026         |
-| **Julio 19**   | Final del Mundial           |
-| **Julio 25**   | Distribución de premios     |
+| Fecha          | Evento                    |
+| -------------- | ------------------------- |
+| **Marzo 2026** | Apertura whitelist        |
+| **Abril–Mayo** | Torneos Beta              |
+| **Junio 1–9**  | Pagos de entrada (30 DAI) |
+| **Junio 11**   | Inicio Mundial 2026       |
+| **Julio 19**   | Final del Mundial         |
+| **Julio 25**   | Distribución de premios   |
 
 ---
 
@@ -89,55 +87,73 @@ Usuarios de whitelist participan en 3 torneos de práctica **gratuitos**:
 
 ### 1. Regístrate
 
-Únete al bot de Telegram e ingresa tu código de referido (opcional) para empezar a participar.
+Únete al bot oficial de Telegram para comenzar.
+
+**¿Tienes código de referido?**
+
+Al registrarte puedes ingresar un código de referido (opcional):
+
+- ✅ Tu referidor gana **$2 DAI**
+- ✅ Tú recibes **+1 Mystery Box COMÚN** extra
+
+Si no tienes código, puedes continuar sin problema.
 
 ### 2. Paga tu Entrada
 
-Deposita 30 **DAI** en tu dirección única de pago a través de la red **Polygon**. El sistema detectará tu pago automáticamente.
+Deposita **30 DAI** en tu dirección única de pago a través de la red **Polygon**. El sistema detecta el pago automáticamente.
+
+> DAI es una moneda digital estable (≈ 1 USD). Polygon es la red donde se procesa el pago.
 
 ### 3. Predice
 
-Ingresa el marcador exacto de cada partido **antes del deadline** para cada jornada del Mundial 2026.
+Ingresa el **marcador exacto** de cada partido antes del deadline de cada jornada del Mundial 2026.
+
+**Ejemplo:** Argentina 2 – Brasil 1
 
 ### 4. Gana
 
-Acumula puntos según la precisión de tus predicciones y compite por los premios en DAI, incluyendo el pool principal, mini torneos, Mystery Boxes y recompensas por referidos.
+Acumula puntos según la precisión de tus predicciones y compite por premios en DAI: pool principal, mini torneos, Mystery Boxes y recompensas por referidos.
 
 ---
 
 ## Ejemplo de Premio
 
-**Con 1,000 participantes:**
+**Con 500 participantes:**
 
-| Posición  | Premio  |
-| --------- | ------- |
-| 1er lugar | $10,000 |
-| 2do lugar | $6,000  |
-| 3er lugar | $4,000  |
+- Entrada: 30 DAI
+- Total recaudado: **15,000 DAI**
 
-**Pool principal:** $20,000 (66.67% del total recaudado: $30,000)
+| Posición  | Premio    |
+| --------- | --------- |
+| 1er lugar | 5,000 DAI |
+| 2do lugar | 3,000 DAI |
+| 3er lugar | 2,000 DAI |
+
+**Pool principal:** 10,000 DAI (66.67% del total recaudado)
+
+---
 
 ## Explora Más
 
-- [Cómo Jugar](como-jugar.md) - Guía paso a paso
-- [Sistema de Puntos](puntos.md) - Cómo se calculan
-- [Premios](premios.md) - Todos los premios disponibles
-- [FAQ](faq.md) - Preguntas frecuentes
-- [Roadmap](roadmap.md) - Timeline del proyecto
+- [Cómo Jugar](como-jugar.md) – Guía paso a paso
+- [Sistema de Puntos](puntos.md) – Cómo se calculan
+- [Premios](premios.md) – Todos los premios disponibles
+- [FAQ](faq.md) – Preguntas frecuentes
+- [Roadmap](roadmap.md) – Timeline del proyecto
 
 ---
 
 ## Únete Ahora
 
-**Bot de Telegram:** @CoinMatchPoolBot _(próximamente)_
+**Bot de Telegram:** @coinmatchpool_bot
 
-**¿Tienes preguntas?** Revisa nuestro [FAQ](faq.md)
+¿Tienes preguntas? Revisa nuestro [FAQ](faq.md)
 
 ---
 
 ## Características
 
-✅ **Transparente:** Sistema verificable en blockchain  
-✅ **Seguro:** Tus fondos protegidos en wallets auditadas  
-✅ **Justo:** Algoritmos públicos y verificables  
-✅ **Emocionante:** 4 formas diferentes de ganar
+✅ **Transparente:** sistema verificable en blockchain  
+✅ **Seguro:** fondos protegidos en wallets auditadas  
+✅ **Justo:** competencia basada en habilidad  
+✅ **Emocionante:** múltiples formas de ganar
