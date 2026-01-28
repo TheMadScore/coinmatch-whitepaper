@@ -51,8 +51,13 @@ Badge exclusivo visible en:
 
 1. Regístrate en **https://coinmatchpool.com**
 2. Conecta tu wallet de Polygon
-3. Vincula tu usuario de Telegram
-4. ✅ Recibes confirmación de whitelist
+3. Vincula tu usuario de Telegram.
+4. **Paga tu entrada: 30 DAI**
+5. ✅ Recibes confirmación de whitelist
+
+- Al registrarte pagas los $30 DAI (entrada al Mundial)
+- Si ganas un Torneo Beta (1er lugar) → Devolución de $30 DAI
+- Si no ganas → Ya estás inscrito para el Mundial 2026
 
 **Límite:** Solo 100 spots disponibles  
 **Fecha límite:** 31 de marzo 2026
