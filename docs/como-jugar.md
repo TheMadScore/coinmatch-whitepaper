@@ -40,19 +40,19 @@ Tu camino de novato a campeón en 6 niveles.
    - Aquí publicamos anuncios y novedades
    - Solo lectura (nosotros publicamos, tú lees)
 
-![Unirse al Canal Oficial](/static/img/telegram-canal-oficial.jpg)
+![Unirse al Canal Oficial](/img/telegram-canal-oficial.jpg)
 
 2. **Únete al Grupo Comunidad**
    - Aquí puedes hablar con otros participantes
    - Resuelve dudas, comparte estrategias
 
-![Unirse al Grupo Comunidad](/static/img/telegram-grupo-comunidad.jpg)
+![Unirse al Grupo Comunidad](/img/telegram-grupo-comunidad.jpg)
 
 3. **Activa el Bot**
    - Tu asistente personal 24/7
    - Escribe `/start` para comenzar
 
-![Iniciar el Bot](/static/img/telegram-bot-start.jpg)
+![Iniciar el Bot](/img/telegram-bot-start.jpg)
 
 ### ✅ Nivel Completado cuando:
 
@@ -80,7 +80,7 @@ Es como una **caja fuerte en tu celular** donde guardas tu dinero digital. Solo 
    - [iPhone](https://apps.apple.com/app/metamask/id1438144202)
    - [Android](https://play.google.com/store/apps/details?id=io.metamask)
 
-![Descargar MetaMask](/static/img/metamask-download.jpg)
+![Descargar MetaMask](/img/metamask-download.jpg)
 
 2. **Crea tu cuenta**
    - Abre la app
@@ -93,7 +93,7 @@ Es como una **caja fuerte en tu celular** donde guardas tu dinero digital. Solo 
    - Guárdalas en lugar seguro
    - **NUNCA las compartas con nadie**
 
-![Frase Secreta](/static/img/metamask-frase-secreta.jpg)
+![Frase Secreta](/img/metamask-frase-secreta.jpg)
 
 4. **Agrega la Red Polygon**
    - Es la autopista por donde viaja tu dinero digital
@@ -130,7 +130,7 @@ Es como una **caja fuerte en tu celular** donde guardas tu dinero digital. Solo 
 3. Selecciona tu país y método de pago
 4. Compra $35 de DAI (un poco extra para comisiones)
 
-![Comprar DAI en MetaMask](/static/img/metamask-comprar-dai.jpg)
+![Comprar DAI en MetaMask](/img/metamask-comprar-dai.jpg)
 
 **Opción B: Usar un exchange**
 
@@ -185,7 +185,7 @@ Tu entrada de $30 se distribuye así:
    - ✅ Tu amigo gana $2
    - ✅ Tú ganas +1 Mystery Box COMÚN extra
 
-![Código de Referido](/static/img/web-codigo-referido.jpg)
+![Código de Referido](/img/web-codigo-referido.jpg)
 
 5. **Paga tu entrada**
    - Toca "Pagar $30 DAI"
@@ -226,7 +226,7 @@ Grupo privado de Telegram solo para los 100 Founders:
 - Novedades antes que nadie
 - Voz en decisiones del proyecto
 
-![Founders Lounge](/static/img/telegram-founders-lounge.jpg)
+![Founders Lounge](/img/telegram-founders-lounge.jpg)
 
 #### 🎁 Rifa Mystery Boxes Exclusiva
 
@@ -314,7 +314,7 @@ Badge permanente en tu perfil que todos verán:
 3. **Ingresa tus marcadores** para cada partido
 4. **Guarda** antes del deadline
 
-![Dashboard Predicciones](/static/img/web-dashboard-predicciones.jpg)
+![Dashboard Predicciones](/img/web-dashboard-predicciones.jpg)
 
 ⚠️ **IMPORTANTE:** Después del deadline NO puedes cambiar predicciones
 
