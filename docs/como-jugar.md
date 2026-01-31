@@ -1,344 +1,396 @@
 ﻿# 🎮 Cómo Jugar
 
-Guía completa para participar en CoinMatch Pool.
+Tu camino de novato a campeón en 6 niveles.
 
 ---
 
-## 🎁 Programa de Acceso Temprano
-
-### Whitelist Gratuita (Marzo 2026)
-
-Antes de pagar tu entrada, puedes unirte a la whitelist de forma **gratuita**:
-
-**Beneficios:**
-
-- ✅ Acceso a torneos Beta (Abril-Mayo 2026)
-- ✅ Oportunidad de ganar entrada gratis al Mundial
-- ✅ Aprender el sistema sin riesgo
-- ✅ Prioridad en actualizaciones
-
-**Cómo inscribirte:**
-
-1. Únete al bot de Telegram
-2. Presiona `/start`
-3. Conecta tu wallet (MetaMask, Trust Wallet, etc.)
-4. ¡Listo! Estás en la whitelist
-
-### Torneos Beta (Abril-Mayo 2026)
-
-Usuarios de whitelist participan en **3 torneos gratuitos** para practicar:
-
-| Torneo     | Competencia       | Partidos | Premio 1er Lugar                     |
-| ---------- | ----------------- | -------- | ------------------------------------ |
-| **Beta 1** | Liga BetPlay Col  | 10       | Entrada gratis CoinMatch del Mundial |
-| **Beta 2** | Copa Libertadores | 8        | Entrada gratis CoinMatch del Mundial |
-| **Beta 3** | Champions League  | 6        | Entrada gratis CoinMatch del Mundial |
-
-**Mecánica:** Solo el **1er lugar** de cada torneo gana entrada gratis ($30) al CoinMatch del Mundial 2026.
-
-**Total ganadores:** 3 personas (1 ganador por torneo Beta)
-
----
-
-## 📋 Requisitos
-
-Antes de empezar, necesitas:
-
-- ✅ **Telegram** instalado en tu móvil
-- ✅ **30 DAI** (≈ 30 USD)
-- ✅ **Wallet de criptomonedas** Wallet de criptomonedas compatible con Polygon (MetaMask, Trust Wallet, Coinbase Wallet)
-
----
-
-## 🚀 Paso a Paso
-
-### Paso 1: Únete al Bot de Telegram
-
-1. Abre Telegram
-2. Busca el bot de CoinMatch Pool _(disponible antes del lanzamiento)_
-
-# ![Buscar el bot](/img/telegram-0-buscar.svg)
-
-3. Presiona **/start**
-
-# ![Mensaje de bienvenida](/img/telegram-1-bienvenida.svg)
-
-4. (Opcional) Ingresa código de referido de un amigo
-
-**Recibirás:**
-
-- Tu código de referido personal
-- Tu dirección única de pago en Polygon
-
----
-
-### Paso 2: Realiza el Pago
-
-**Información importante:**
-
-- **Monto:** 30 DAI (o más)
-- **Red:** Polygon _(NO Ethereum)_
-- **Destino:** La dirección que te proporcionó el bot
-
-#### Desde MetaMask:
-
-1. Abre MetaMask en tu móvil o navegador
-2. Cambia a red **Polygon**
-3. Selecciona token **DAI**
-4. Envía **30 DAI** a tu dirección única
-5. Confirma la transacción
-
-⏱️ **Detección automática:** ~1 minuto
-
-⚠️ **Importante:** Solo envía DAI en red Polygon. Si envías en Ethereum u otra red, perderás tus fondos.
-
----
-
-### Paso 3: Espera Confirmación
-
-El bot te notificará automáticamente cuando detecte tu pago:
+## 🗺️ Tu Mapa de Ruta
 
 ```
-✅ PAGO CONFIRMADO
-
-Monto: 30 DAI
-
-¡Ya puedes empezar a predecir!
-
-/predecir para comenzar
+🔓 NIVEL 1: Únete a la Comunidad
+       ↓
+🔒 NIVEL 2: Crea tu Bóveda Digital
+       ↓
+🔒 NIVEL 3: Consigue tus Dólares Digitales
+       ↓
+🔒 NIVEL 4: Activa tu Entrada Founder
+       ↓
+   ⭐ DESBLOQUEADO: PROGRAMA FOUNDERS
+       ├── 🏆 Torneos Beta
+       ├── 💬 Founders Lounge
+       ├── 🎁 Rifa Mystery Boxes
+       └── 🏅 Insignia Founder
+       ↓
+🔒 NIVEL 5: Entrena en Torneos Beta
+       ↓
+🔒 NIVEL 6: ¡A Conquistar el Mundial!
 ```
 
-🎁 **Bonus:** Recibes 1 Mystery Box de bienvenida
+---
+
+## 🔓 NIVEL 1: Únete a la Comunidad
+
+**Objetivo:** Conocer CoinMatch Pool y unirte al grupo
+
+⏱️ **Tiempo:** 2 minutos
+
+### Qué hacer:
+
+1. **Únete al Canal Oficial**
+   - Aquí publicamos anuncios y novedades
+   - Solo lectura (nosotros publicamos, tú lees)
+
+![Unirse al Canal Oficial](/static/img/telegram-canal-oficial.jpg)
+
+2. **Únete al Grupo Comunidad**
+   - Aquí puedes hablar con otros participantes
+   - Resuelve dudas, comparte estrategias
+
+![Unirse al Grupo Comunidad](static/img/telegram-grupo-comunidad.jpg)
+
+3. **Activa el Bot**
+   - Tu asistente personal 24/7
+   - Escribe `/start` para comenzar
+
+![Iniciar el Bot](static/img/telegram-bot-start.jpg)
+
+### ✅ Nivel Completado cuando:
+
+- Estás en el Canal Oficial
+- Estás en el Grupo Comunidad
+- El bot te dio la bienvenida
+
+🎁 **Recompensa:** Acceso a toda la información del proyecto
 
 ---
 
-### Paso 4: Haz tus Predicciones
+## 🔓 NIVEL 2: Crea tu Bóveda Digital
 
-#### Accede al Dashboard Web
+**Objetivo:** Crear tu billetera para guardar dinero digital
 
-Una vez confirmado tu pago, accede a tu panel de predicciones en:
+⏱️ **Tiempo:** 5 minutos
 
-**https://coinmatchpool.com/dashboard**
+### ¿Qué es una Bóveda Digital?
 
-Inicia sesión con tu cuenta de Telegram.
+Es como una **caja fuerte en tu celular** donde guardas tu dinero digital. Solo tú tienes la llave (tu contraseña secreta).
 
-#### Cómo Predecir
+### Qué hacer:
 
-1. Selecciona la **jornada** que quieres completar
-2. Verás la lista de partidos disponibles
-3. Para cada partido, ingresa el marcador:
-   - Goles del equipo local
-   - Goles del equipo visitante
-4. Haz clic en **Guardar predicciones**
+1. **Descarga MetaMask** (gratis)
+   - [iPhone](https://apps.apple.com/app/metamask/id1438144202)
+   - [Android](https://play.google.com/store/apps/details?id=io.metamask)
 
-💡 **Tip:** Puedes modificar tus predicciones cuantas veces quieras antes del deadline de cada jornada.
+![Descargar MetaMask](/img/metamask-download.jpg)
 
-⚠️ **Importante:** Una vez que pase el deadline, las predicciones quedan bloqueadas y ya no podrás cambiarlas.
+2. **Crea tu cuenta**
+   - Abre la app
+   - Toca "Crear nueva billetera"
+   - Crea una contraseña segura
 
----
+3. **Guarda tu Frase Secreta** ⚠️ MUY IMPORTANTE
+   - MetaMask te dará 12 palabras
+   - Escríbelas en papel (NO en el celular)
+   - Guárdalas en lugar seguro
+   - **NUNCA las compartas con nadie**
 
-### Paso 5: Revisa tu Progreso
+![Frase Secreta](/img/metamask-frase-secreta.jpg)
 
-Desde el dashboard web puedes consultar:
+4. **Agrega la Red Polygon**
+   - Es la autopista por donde viaja tu dinero digital
+   - El bot te ayuda: escribe `/wallet` para ver el tutorial
 
-#### 🏆 Ranking General
+### ✅ Nivel Completado cuando:
 
-Ve tu posición entre todos los participantes y el Top 10.
+- Tienes MetaMask instalado
+- Guardaste tu frase secreta en papel
+- Agregaste la red Polygon
 
-#### 📊 Tus Estadísticas
-
-- Puntos totales acumulados
-- Marcadores exactos
-- Resultados correctos
-- Posición actual
-
-#### ⚽ Tus Predicciones
-
-Revisa todas las predicciones que has hecho por jornada, incluyendo:
-
-- Predicciones pendientes
-- Predicciones ya evaluadas
-- Puntos ganados por cada acierto
+🎁 **Recompensa:** 🎖️ Badge "Bóveda Creada" (listo para recibir premios)
 
 ---
 
-### 📱 Notificaciones por Telegram
+## 🔓 NIVEL 3: Consigue tus Dólares Digitales
 
-El bot te enviará alertas importantes:
+**Objetivo:** Comprar $30 en dólares digitales (DAI)
 
-- ⏰ Recordatorios antes de cada deadline
-- ✅ Confirmación de pago
-- 🎁 Mystery boxes ganadas
-- 🏆 Actualización de tu posición en el ranking
+⏱️ **Tiempo:** 10-15 minutos
+
+### ¿Qué es DAI?
+
+- **1 DAI = 1 dólar** (siempre, no sube ni baja)
+- Es dinero digital que puedes enviar a cualquier parte del mundo
+- Lo usamos porque es transparente y seguro
+
+### Qué hacer:
+
+**Opción A: Comprar con tarjeta (más fácil)**
+
+1. Abre MetaMask
+2. Toca "Comprar"
+3. Selecciona tu país y método de pago
+4. Compra $35 de DAI (un poco extra para comisiones)
+
+![Comprar DAI en MetaMask](/img/metamask-comprar-dai.jpg)
+
+**Opción B: Usar un exchange**
+
+1. Crea cuenta en Binance o similar
+2. Compra DAI
+3. Envía a tu bóveda (red Polygon)
+
+💡 **¿Necesitas ayuda?** Escribe al bot: "¿Cómo compro DAI?"
+
+### ✅ Nivel Completado cuando:
+
+- Tienes al menos $30 DAI en tu bóveda
+- Puedes verlos en MetaMask (red Polygon)
+
+🎁 **Recompensa:** 🎖️ Badge "Fondos Listos"
+
+---
+
+## 🔓 NIVEL 4: Activa tu Entrada Founder
+
+**Objetivo:** Pagar tu entrada y convertirte en Founder
+
+⏱️ **Tiempo:** 3 minutos
+
+### ¿Por qué $30?
+
+Tu entrada de $30 se distribuye así:
+
+| Destino           | Monto | Qué es                   |
+| ----------------- | ----- | ------------------------ |
+| 🏆 Pool Principal | $20   | Premios para Top 3       |
+| 🎮 Mini Torneos   | $1    | Premios por jornada      |
+| 🎁 Mystery Boxes  | $2    | Cajas sorpresa           |
+| 👥 Referidos      | $2    | Comisiones por invitar   |
+| ⚙️ Operación      | $5    | Mantenimiento plataforma |
+
+### Qué hacer:
+
+1. **Ve a la web:** [coinmatchpool.com](https://coinmatchpool.com)
+
+2. **Conecta tu bóveda**
+   - Toca "Conectar Wallet"
+   - Selecciona MetaMask
+   - Aprueba la conexión
+
+3. **Vincula tu Telegram**
+   - El sistema te pedirá tu usuario
+   - Esto conecta tu bóveda con tu perfil
+
+4. **¿Tienes código de amigo?** (Opcional)
+   - Si alguien te invitó, ingresa su código
+   - ✅ Tu amigo gana $2
+   - ✅ Tú ganas +1 Mystery Box COMÚN extra
+
+![Código de Referido](/img/web-codigo-referido.jpg)
+
+5. **Paga tu entrada**
+   - Toca "Pagar $30 DAI"
+   - Confirma en MetaMask
+   - ¡Listo! 🎉
+
+### ✅ Nivel Completado cuando:
+
+- Recibes confirmación de pago
+- El bot te da la bienvenida como Founder
+
+---
+
+## ⭐ PROGRAMA FOUNDERS DESBLOQUEADO
+
+¡Felicidades! Ahora eres uno de los **primeros 100 Founders**.
+
+### Beneficios Exclusivos:
+
+#### 🏆 Torneos Beta (Abril-Mayo 2026)
+
+3 torneos de práctica para aprender el sistema:
+
+| Torneo | Competencia           | Partidos | Premio 1er Lugar          |
+| ------ | --------------------- | -------- | ------------------------- |
+| Beta 1 | Liga BetPlay Colombia | 10       | **Devolución de tus $30** |
+| Beta 2 | Copa Libertadores     | 8        | **Devolución de tus $30** |
+| Beta 3 | Champions League      | 6        | **Devolución de tus $30** |
+
+**¿Ganaste un Torneo Beta?** → Recuperas tu entrada completa
+**¿No ganaste?** → Ya estás inscrito para el Mundial
+
+#### 💬 Founders Lounge
+
+Grupo privado de Telegram solo para los 100 Founders:
+
+- Comunicación directa con el equipo
+- Novedades antes que nadie
+- Voz en decisiones del proyecto
+
+![Founders Lounge](/img/telegram-founders-lounge.jpg)
+
+#### 🎁 Rifa Mystery Boxes Exclusiva
+
+- Cada Founder recibe 1 caja de rifa especial
+- Algunas tienen premios RAROS o ÉPICOS
+- Otras están vacías (es rifa)
+- Se abren el 11 de junio 2026 (inicio del Mundial)
+
+#### 🏅 Insignia "Founder"
+
+Badge permanente en tu perfil que todos verán:
+
+- En el ranking
+- En tu perfil público
+- Para siempre
+
+---
+
+## 🔓 NIVEL 5: Entrena en Torneos Beta
+
+**Objetivo:** Practicar y competir por la devolución de tu entrada
+
+⏱️ **Duración:** Abril - Mayo 2026
+
+### ¿Cómo funcionan?
+
+1. **Recibes notificación** cuando abre un torneo
+2. **Accedes al dashboard** web
+3. **Predices marcadores** de cada partido
+4. **Acumulas puntos** según tus aciertos
+5. **Si quedas 1ro** → Recuperas tus $30
+
+### Sistema de Puntos (Beta usa el mismo del Mundial):
+
+| Acierto                             | Puntos |
+| ----------------------------------- | ------ |
+| Marcador exacto (ej: 2-1)           | 3 pts  |
+| Resultado correcto (ej: gana local) | 1 pt   |
+| Fallo                               | 0 pts  |
+
+### Calendario Beta:
+
+| Torneo               | Fecha      | Partidos |
+| -------------------- | ---------- | -------- |
+| Beta 1: Liga BetPlay | Abril 2026 | 10       |
+| Beta 2: Libertadores | Abril 2026 | 8        |
+| Beta 3: Champions    | Mayo 2026  | 6        |
+
+### ✅ Nivel Completado cuando:
+
+- Participaste en al menos 1 torneo Beta
+- Ya conoces el sistema de predicciones
+
+🎁 **Recompensa:** Experiencia + posibilidad de recuperar tu entrada
+
+---
+
+## 🔓 NIVEL 6: ¡A Conquistar el Mundial!
+
+**Objetivo:** Predecir los 103 partidos y ganar premios
+
+⏱️ **Duración:** 11 Junio - 19 Julio 2026
+
+### El Gran Juego
+
+- **103 partidos** para predecir
+- **8 jornadas** con deadlines independientes
+- **Puntos progresivos** (más puntos en fases finales)
+
+### Sistema de Puntos Mundial:
+
+| Fase          | Marcador Exacto | Resultado Correcto |
+| ------------- | --------------- | ------------------ |
+| Grupos        | 3 pts           | 1 pt               |
+| Dieciseisavos | 5 pts           | 2 pts              |
+| Octavos       | 8 pts           | 3 pts              |
+| Cuartos       | 12 pts          | 5 pts              |
+| Semifinales   | 20 pts          | 8 pts              |
+| Final         | 30 pts          | 10 pts             |
+
+### Cómo Predecir:
+
+1. **Accede al dashboard:** [coinmatchpool.com/dashboard](https://coinmatchpool.com/dashboard)
+2. **Selecciona la jornada**
+3. **Ingresa tus marcadores** para cada partido
+4. **Guarda** antes del deadline
+
+![Dashboard Predicciones](/img/web-dashboard-predicciones.jpg)
+
+⚠️ **IMPORTANTE:** Después del deadline NO puedes cambiar predicciones
+
+### Formas de Ganar:
+
+| Categoría         | Qué es              | Ejemplo (1,000 jugadores)                |
+| ----------------- | ------------------- | ---------------------------------------- |
+| 🏆 Pool Principal | Top 3 ranking final | 1ro: $10,000 / 2do: $6,000 / 3ro: $4,000 |
+| 🎮 Mini Torneos   | Top 3 por jornada   | ~$50-125 por torneo                      |
+| 🎁 Mystery Boxes  | Cajas sorpresa      | $0 - $80 por caja                        |
+| 👥 Referidos      | $2 por amigo        | $2 × cada amigo que pague                |
+
+### ✅ Nivel Completado cuando:
+
+- Completaste todas tus predicciones
+- Esperaste al 19 de julio (Final del Mundial)
+- Recibiste tus premios (25 de julio)
+
+🎁 **Recompensa:** ¡Tus ganancias en dólares digitales!
 
 ---
 
 ## ⏰ Fechas Importantes
 
-| Evento                   | Fecha          |
-| ------------------------ | -------------- |
-| **Whitelist abierta**    | Marzo 2026     |
-| **Beta Torneo 1**        | Abril 2026     |
-| **Beta Torneo 2**        | Abril 2026     |
-| **Beta Torneo 3**        | Mayo 2026      |
-| **Pagos de entrada**     | 1-9 Junio 2026 |
-| **Cierre inscripciones** | 9 Junio 2026   |
-| **Inicio Mundial**       | 11 Junio 2026  |
-| **Final Mundial**        | 19 Julio 2026  |
-| **Distribución premios** | 25 Julio 2026  |
+| Fecha              | Evento                                |
+| ------------------ | ------------------------------------- |
+| **Marzo 2026**     | Abre inscripción Founders (100 spots) |
+| **31 Marzo 2026**  | ⏰ Cierra inscripción Founders        |
+| **Abril 2026**     | Torneos Beta 1 y 2                    |
+| **Mayo 2026**      | Torneo Beta 3                         |
+| **1-9 Junio 2026** | Inscripción general                   |
+| **11 Junio 2026**  | 🏆 INICIA EL MUNDIAL                  |
+| **19 Julio 2026**  | Final del Mundial                     |
+| **25 Julio 2026**  | 💰 Distribución de premios            |
 
 ---
 
-## ⚠️ Reglas Importantes
+## 💸 Cómo Retirar tus Ganancias
 
-### Deadlines
+Cuando ganes premios, puedes retirarlos a tu bóveda:
 
-- ⏰ Las predicciones se cierran antes del inicio de cada jornada
-- ❌ NO puedes cambiar predicciones después del deadline
-- ✅ Puedes editar predicciones cuantas veces quieras antes del deadline
-- 📅 Hay 8 jornadas con deadlines independientes
+1. Ve a **Dashboard → Retiros**
+2. Ingresa el monto (mínimo $10)
+3. Confirma tu dirección de bóveda
+4. Espera 24-48 horas (revisión manual)
+5. ✅ Recibes tus dólares digitales
 
-### Resultados
-
-- ✅ Se cuenta el marcador en **tiempo completo** (90 min + tiempo extra)
-- ❌ Los **penales NO cuentan** para el marcador final
-- 🎯 Solo el marcador al finalizar el tiempo reglamentario importa
-- ⚽ Partido 3° y 4° puesto: **NO se incluye** (solo 103 partidos)
-
-### Fair Play
-
-- ❌ NO puedes auto-referirte
-- ❌ NO puedes crear múltiples cuentas
-- ❌ Máximo 30% de los usuarios pueden ser tus referidos
-- ⚠️ Violaciones = **descalificación inmediata** y pérdida de entrada
+**Sin comisiones** de retiro.
 
 ---
 
-## 🎁 Formas de Ganar
+## ❓ Preguntas Rápidas
 
-### 1. 🏆 Pool Principal (66.67%)
+**¿Puedo participar sin saber de cripto?**
+✅ Sí, el bot te guía paso a paso. Miles de personas aprenden cada día.
 
-Los **Top 3** del ranking final se reparten el pool principal:
+**¿Es seguro?**
+✅ Sí. Tu dinero está en TU bóveda, no en la nuestra. Todo es verificable.
 
-- 🥇 1er lugar: **50%**
-- 🥈 2do lugar: **30%**
-- 🥉 3er lugar: **20%**
+**¿Qué pasa si no predigo todos los partidos?**
+Los partidos sin predicción = 0 puntos. No estás obligado, pero te conviene completar todo.
 
-### 2. ⚽ Mini Torneos (3.33%)
+**¿Puedo cambiar mis predicciones?**
+✅ Sí, ANTES del deadline de cada jornada. Después se bloquean.
 
-**4 torneos paralelos** durante el Mundial:
-
-- **Torneo 1:** Mejor en Jornada 1 (Grupos)
-- **Torneo 2:** Mejor en Jornada 2 (Grupos)
-- **Torneo 3:** Mejor en Jornada 3 (Grupos)
-- **Torneo 4:** Mejor en todas fases de **Eliminatorias**
-
-Top 3 en cada torneo ganan premios.
-
-### 3. 🎁 Mystery Boxes (6.67%)
-
-Cajas sorpresa con premios en DAI que ganas por:
-
-- ✅ Pagar tu entrada (1 caja de bienvenida)
-- ✅ Quedar en Top 10 de cualquier jornada
-- ✅ Logros especiales (rachas de aciertos)
-- ✅ Hitos de referidos (5, 10, 20 amigos)
-
-### 4. 👥 Referidos (5%)
-
-Gana **$1.50 DAI** por cada amigo que se registre y pague.
-
-**Límite:** Máximo 30% del total de participantes pueden ser tus referidos.
+**¿Cuentan los penales?**
+❌ No. Solo cuenta el marcador en tiempo completo (90 min + tiempo extra).
 
 ---
 
-### 5. 📱 Bot de Telegram
+## 🚀 ¿Listo para Empezar?
 
-El bot de Telegram te ayuda con:
+**Paso 1:** Únete al canal → [@coinmatchpool_oficial](https://t.me/coinmatchpool_oficial)
 
-### Funciones Principales:
-
-- ✅ `/start` - Registro inicial y recibir código de referido
-- ✅ `/pagar` - Ver tu dirección única de pago
-
-### Notificaciones Automáticas:
-
-El bot te enviará alertas sobre:
-
-- ⏰ Recordatorios de deadlines próximos
-- ✅ Confirmación de pago recibido
-- 🎁 Mystery boxes ganadas
-- 🏆 Cambios en tu posición del ranking
-
-**Todo lo demás (predicciones, ranking, mystery boxes, retiros) se hace desde el dashboard web.**
+**¿Tienes dudas?** Pregúntale al bot: [@coinmatchpool_bot](https://t.me/coinmatchpool_bot)
 
 ---
 
-### 6. 💻 Dashboard Web
-
-Accede a todas las funciones desde:  
-**https://coinmatchpool.com/dashboard**
-
-### Secciones Disponibles:
-
-- ⚽ **Predicciones** - Ingresa tus marcadores
-- 🏆 **Ranking** - Ve tu posición y el Top 10
-- 📊 **Estadísticas** - Tus puntos y aciertos
-- 🎁 **Mystery Boxes** - Abre tus cajas
-- 👥 **Referidos** - Gestiona tus invitaciones
-- 💰 **Balance** - Ve tu saldo disponible
-- 💸 **Retiros** - Solicita retiros
-
----
-
-### 7. 💸 Cómo Retirar tus Ganancias
-
-Puedes retirar tu saldo acumulado en cualquier momento desde el dashboard web.
-
-#### Requisitos para Retirar:
-
-- ✅ Saldo mínimo: **$10 DAI**
-- ✅ Wallet compatible con Polygon (MetaMask, Trust Wallet, etc.)
-- ✅ Dirección de wallet válida
-
-#### Proceso de Retiro:
-
-1. **Accede a la sección Retiros** en el dashboard web
-2. **Ingresa el monto** que deseas retirar
-3. **Ingresa tu dirección de wallet** en red Polygon
-4. **Confirma la solicitud**
-
-⏱️ **Tiempo de procesamiento:** 24-48 horas (revisión manual)
-
-💰 **Sin comisiones:** No cobramos comisión por retiros
-
-⚠️ **Importante:**
-
-- Solo enviamos a red **Polygon**
-- Verifica bien tu dirección (no se puede revertir)
-- Solo puedes retirar el saldo disponible
-
-#### Estados del Retiro:
-
-- 🟡 **PENDIENTE** - En revisión por el equipo
-- 🟢 **APROBADO** - Procesando transferencia
-- ✅ **COMPLETADO** - DAI enviados a tu wallet
-- ❌ **RECHAZADO** - Verifica requisitos y vuelve a intentar
-
-#### Verificar tu Retiro:
-
-Una vez completado, recibirás:
-
-- Notificación en Telegram
-- TX Hash en el dashboard
-- Puedes verificar en [Polygonscan](https://polygonscan.com)
-
----
-
-## ❓ ¿Necesitas Ayuda?
-
-Revisa nuestro [FAQ](faq.md) o únete al grupo de soporte en Telegram.
-
----
-
-[← Volver al Inicio](index.md) | [Sistema de Puntos →](puntos.md)
+[← Volver al Inicio](intro.md) | [Sistema de Puntos →](puntos.md)
