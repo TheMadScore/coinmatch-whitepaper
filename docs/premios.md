@@ -4,138 +4,139 @@ Todas las formas de ganar en CoinMatch Pool.
 
 ---
 
-## 🎁 Programa de Acceso Temprano (Whitelist)
+## 🎁 Programa Founders (Acceso Anticipado)
 
-**Los primeros 100 usuarios registrados antes del 31 de marzo 2026:**
+**Los primeros 100 participantes antes del 31 de marzo 2026:**
 
-### 1. 🏆 Torneos Beta (Entradas Gratis)
+### 1. 🏆 Torneos Beta
 
-Acceso exclusivo para competir en torneos Beta y ganar tu entrada gratis:
+Compite en 3 torneos de práctica y recupera tu entrada:
 
-| Torneo     | Competencia       | Fecha      | Premio 1er Lugar                     |
-| ---------- | ----------------- | ---------- | ------------------------------------ |
-| **Beta 1** | Liga BetPlay Col  | Abril 2026 | Entrada gratis CoinMatch del Mundial |
-| **Beta 2** | Copa Libertadores | Abril 2026 | Entrada gratis CoinMatch del Mundial |
-| **Beta 3** | Champions League  | Mayo 2026  | Entrada gratis CoinMatch del Mundial |
+| Torneo     | Competencia       | Fecha      | Premio 1er Lugar      |
+| ---------- | ----------------- | ---------- | --------------------- |
+| **Beta 1** | Liga BetPlay Col  | Abril 2026 | **Devolución de $30** |
+| **Beta 2** | Copa Libertadores | Abril 2026 | **Devolución de $30** |
+| **Beta 3** | Champions League  | Mayo 2026  | **Devolución de $30** |
 
-**Solo el 1er lugar** de cada torneo gana entrada gratis ($30).  
-**Solo usuarios whitelist** pueden participar.
+**Solo el 1er lugar** de cada torneo recibe devolución.
+**Solo Founders** pueden participar.
 
 ### 2. 💬 Founders Lounge (Telegram)
 
-Acceso a grupo privado exclusivo en Telegram:
+Grupo privado exclusivo:
 
 - Comunicación directa con el equipo
-- Updates anticipados de la plataforma
+- Updates anticipados
 - Networking con otros founders
 - Voz en decisiones del proyecto
 
 ### 3. 🎁 Rifa Mystery Boxes Exclusiva
 
-Cada usuario whitelist recibe **1 caja de rifa especial**:
+Cada Founder recibe **1 caja de rifa especial**:
 
-- Algunas cajas contienen premios RAROS o ÉPICOS
-- Otras cajas están vacías
-- Cajas bloqueadas hasta el 11 de junio 2026
-- Se abren solo al inicio del Mundial
+- Algunas contienen premios RAROS o ÉPICOS
+- Otras están vacías
+- Bloqueadas hasta el 11 de junio 2026
+- Se abren al inicio del Mundial
 
 ### 4. 🏅 Insignia "Founder"
 
-Badge exclusivo visible en:
+Badge permanente visible en:
 
 - Tu perfil público
 - Rankings y leaderboards
-- Reconocimiento permanente como early supporter
+- Reconocimiento para siempre
 
-### Cómo Unirte a la Whitelist:
+### Cómo Unirte:
 
-1. Regístrate en **https://coinmatchpool.com**
-2. Conecta tu wallet de Polygon
-3. Vincula tu usuario de Telegram.
-4. **Paga tu entrada: 30 DAI**
-5. ✅ Recibes confirmación de whitelist
+1. Únete al bot: [@coinmatchpool_bot](https://t.me/coinmatchpool_bot)
+2. Crea tu bóveda digital (MetaMask)
+3. Vincula tu Telegram
+4. **Paga tu entrada: $30 DAI**
+5. ✅ ¡Eres Founder!
 
-- Al registrarte pagas los $30 DAI (entrada al Mundial)
-- Si ganas un Torneo Beta (1er lugar) → Devolución de $30 DAI
-- Si no ganas → Ya estás inscrito para el Mundial 2026
+**¿Ganaste un Torneo Beta?** → Te devolvemos tus $30
+**¿No ganaste?** → Ya estás inscrito para el Mundial
 
-**Límite:** Solo 100 spots disponibles  
-**Fecha límite:** 31 de marzo 2026
+**Límite:** 100 spots
+**Fecha límite:** 31 marzo 2026
 
 ---
 
 ## 💵 Distribución de tu Entrada ($30)
 
-Cada entrada de 30 DAI se distribuye así:
+Tu dinero se reparte así:
 
-| Concepto          | Monto      | Porcentaje |
-| ----------------- | ---------- | ---------- |
-| 🏆 Pool Principal | $20.00     | 66.67%     |
-| 🎮 Mini Torneos   | $1.00      | 3.33%      |
-| 🎁 Mystery Boxes  | $2.00      | 6.67%      |
-| 👥 Referidos      | $2.00      | 6.67%      |
-| ⚙️ Administración | $5.00      | 16.67%     |
-| **TOTAL**         | **$30.00** | **100%**   |
+| Concepto          | Monto      | %        | Para qué                    |
+| ----------------- | ---------- | -------- | --------------------------- |
+| 🏆 Pool Principal | $20.00     | 66.67%   | Premios Top 3               |
+| 🎮 Mini Torneos   | $1.00      | 3.33%    | Premios por jornada         |
+| 🎁 Mystery Boxes  | $2.00      | 6.67%    | Cajas sorpresa              |
+| 👥 Referidos      | $2.00      | 6.67%    | Comisiones por invitar      |
+| ⚙️ Operación      | $5.00      | 16.67%   | Mantenemos todo funcionando |
+| **TOTAL**         | **$30.00** | **100%** |                             |
 
 ---
 
 ## 🏆 Pool Principal (66.67%)
 
-El premio más grande. Top 3 del ranking general se llevan el pool.
+El premio gordo. Los mejores 3 se lo llevan.
 
-### Distribución Fija:
+### Distribución:
 
-- 🥇 **1er lugar:** 50%
-- 🥈 **2do lugar:** 30%
-- 🥉 **3er lugar:** 20%
+| Posición     | % del Pool |
+| ------------ | ---------- |
+| 🥇 1er lugar | 50%        |
+| 🥈 2do lugar | 30%        |
+| 🥉 3er lugar | 20%        |
 
-### Ejemplos por Escala:
+### Ejemplos Reales:
 
-| Jugadores | Pool Total | 1er Lugar | 2do Lugar | 3er Lugar |
-| --------- | ---------- | --------- | --------- | --------- |
-| 100       | $2,000     | $1,000    | $600      | $400      |
-| 500       | $10,000    | $5,000    | $3,000    | $2,000    |
-| 1,000     | $20,000    | $10,000   | $6,000    | $4,000    |
-| 2,000     | $40,000    | $20,000   | $12,000   | $8,000    |
+| Participantes | Pool Total | 🥇 1ro  | 🥈 2do  | 🥉 3ro |
+| ------------- | ---------- | ------- | ------- | ------ |
+| 100           | $2,000     | $1,000  | $600    | $400   |
+| 500           | $10,000    | $5,000  | $3,000  | $2,000 |
+| 1,000         | $20,000    | $10,000 | $6,000  | $4,000 |
+| 2,000         | $40,000    | $20,000 | $12,000 | $8,000 |
 
-**Límite máximo:** 2,000 jugadores
+**Máximo:** 2,000 participantes
 
 ---
 
 ## 🎮 Mini Torneos (3.33%)
 
-4 torneos paralelos durante el Mundial. ¡Más oportunidades de ganar!
+4 competencias paralelas durante el Mundial. ¡Más formas de ganar!
 
-### Torneos Disponibles:
+### Los 4 Torneos:
 
-1. **Jornada 1** (Grupos - 24 partidos)
-2. **Jornada 2** (Grupos - 24 partidos)
-3. **Jornada 3** (Grupos - 24 partidos)
-4. **Eliminatorias Completas** (31 partidos)
+1. **Jornada 1** — Grupos, 24 partidos
+2. **Jornada 2** — Grupos, 24 partidos
+3. **Jornada 3** — Grupos, 24 partidos
+4. **Eliminatorias** — 31 partidos
 
 Cada torneo reparte **25% del pool de mini torneos**.
 
-### Distribución por Escala:
+### Premios por Escala:
 
-**100 jugadores ($100 total → $25 por torneo):**
+**Con 100 participantes** ($25 por torneo):
 
-- 🥇 Top 1: $25 (100%)
+- 🥇 1ro: $25
 
-**500 jugadores ($500 total → $125 por torneo):**
+**Con 500 participantes** ($125 por torneo):
 
-- 🥇 Top 1: $75 (60%)
-- 🥈 Top 2: $35 (28%)
-- 🥉 Top 3: $15 (12%)
+- 🥇 1ro: $75
+- 🥈 2do: $35
+- 🥉 3ro: $15
 
-**1,000+ jugadores ($1,000+ total → $250+ por torneo):**
+**Con 1,000+ participantes** ($250+ por torneo):
 
-- 🥇 Top 1: $125 (50%)
-- 🥈 Top 2: $75 (30%)
-- 🥉 Top 3: $50 (20%)
+- 🥇 1ro: $125
+- 🥈 2do: $75
+- 🥉 3ro: $50
 
-### Ejemplo con 1,000 jugadores:
+### Ejemplo con 1,000 participantes:
 
-| Torneo        | Pool       | 1er      | 2do      | 3er      |
+| Torneo        | Pool       | 🥇       | 🥈       | 🥉       |
 | ------------- | ---------- | -------- | -------- | -------- |
 | Jornada 1     | $250       | $125     | $75      | $50      |
 | Jornada 2     | $250       | $125     | $75      | $50      |
@@ -147,200 +148,211 @@ Cada torneo reparte **25% del pool de mini torneos**.
 
 ## 🎁 Mystery Boxes (6.67%)
 
-Premios sorpresa con 6 niveles de rareza.
+Cajas sorpresa con 6 niveles de rareza.
 
-### Sistema de Cajas:
+### Sistema:
 
-Gana mystery boxes durante el Mundial por: pagar entrada, quedar Top 10, logros especiales y referidos.
-
-**Sistema proporcional:**
-
-- 100 jugadores = 500 cajas totales generadas
-- 1,000 jugadores = 5,000 cajas totales generadas
-
-Las cajas se generan al cierre de inscripciones (9 Junio 2026) y se distribuyen según desempeño.
+- Las cajas se generan al cierre de inscripciones (9 junio 2026)
+- Se distribuyen según desempeño
+- **100 participantes** = 500 cajas totales
+- **1,000 participantes** = 5,000 cajas totales
 
 ### Niveles de Rareza:
 
-| Rareza        | % Cajas | Premio (1,000 jugadores) |
-| ------------- | ------- | ------------------------ |
-| 🟣 MÍTICA     | 0.5%    | $80.00 fijo              |
-| 🟠 LEGENDARIA | 4.5%    | ~$17.78                  |
-| 🟡 ÉPICA      | 10%     | ~$8.00                   |
-| 🔵 RARA       | 20%     | ~$4.00                   |
-| 🟢 COMÚN      | 30%     | ~$2.67                   |
-| ⚪ BÁSICA     | 35%     | $0.00                    |
+| Rareza        | Probabilidad | Premio aprox. |
+| ------------- | ------------ | ------------- |
+| 🟣 MÍTICA     | 0.5%         | $80.00 fijo   |
+| 🟠 LEGENDARIA | 4.5%         | ~$17.78       |
+| 🟡 ÉPICA      | 10%          | ~$8.00        |
+| 🔵 RARA       | 20%          | ~$4.00        |
+| 🟢 COMÚN      | 30%          | ~$2.67        |
+| ⚪ BÁSICA     | 35%          | $0.00         |
 
 ### Cómo Ganar Cajas:
 
-#### 1. Caja de Bienvenida
+#### 1. 🎉 Caja de Bienvenida
 
-✅ Al pagar tu entrada recibes 1 caja automáticamente
+Al pagar tu entrada → **1 caja automática**
 
-#### 2. Top 10 por Jornada
+#### 2. 🎁 Usar Código de Referido
 
-Quedar en el Top 10 de cualquier jornada te da 1 caja:
+Si usas el código de un amigo al registrarte → **+1 caja COMÚN extra**
 
-- Jornada 1-8: Top 10 recibe 1 caja cada uno
+#### 3. 🏆 Top 10 por Jornada
+
+Quedar en Top 10 de cualquier jornada → **1 caja**
 
 **Total posible:** 8 cajas (si quedas Top 10 en todas las jornadas)
 
-#### 3. Logros Especiales
+#### 4. 🎯 Logros Especiales
 
-- 🎯 **5 marcadores exactos** en fase de grupos → 1 caja
-- 🎯 **3 marcadores exactos** en eliminatorias → 1 caja
+- 5 marcadores exactos en grupos → 1 caja
+- 3 marcadores exactos en eliminatorias → 1 caja
 
-⚠️ Sujeto a disponibilidad según número total de jugadores
+⚠️ Sujeto a disponibilidad
 
-#### 4. Referidos (Garantizados)
+#### 5. 👥 Hitos de Referidos (Garantizados)
 
-**Sistema de reservas - Primeros en llegar:**
+| Referidos | Bonus                            |
+| --------- | -------------------------------- |
+| 5         | 🔵 Caja RARA garantizada         |
+| 10        | 🟡 Caja ÉPICA garantizada        |
+| 20+       | 🟠 Caja LEGENDARIA garantizada\* |
 
-- **5 referidos:** Caja RARA garantizada
-- **10 referidos:** Caja ÉPICA garantizada
-- **20 o más referidos:** Caja LEGENDARIA garantizada (primeros 20 usuarios en alcanzar esta meta)
-
-Las cajas de referidos se reservan del pool total para garantizar su entrega.
+\*Primeros 20 usuarios en alcanzar esta meta.
 
 ### Abrir Cajas:
 
-Desde tu dashboard web:
-
-1. Ve a la sección **Mystery Boxes**
-2. Verás tu inventario de cajas disponibles
-3. Haz clic en **Abrir** en cualquier caja
-4. El premio se acredita automáticamente a tu balance
+1. Ve al **Dashboard → Mystery Boxes**
+2. Verás tu inventario
+3. Click en **Abrir**
+4. El premio se acredita a tu balance
 
 ---
 
 ## 👥 Referidos (6.67%)
 
-Gana **$2.00 por cada amigo** que se una y pague.
+Invita amigos y gana. ¡Ambos ganan!
 
 ### Cómo Funciona:
 
-1. Obtienes tu código único al registrarte (Ej: CM00042)
-2. Compartes tu código con amigos
+| Quién                   | Qué gana                       |
+| ----------------------- | ------------------------------ |
+| **Tú** (referidor)      | $2.00 por cada amigo que pague |
+| **Tu amigo** (referido) | +1 Mystery Box COMÚN extra     |
+
+### Proceso:
+
+1. Obtienes tu código único (ej: CM00042)
+2. Lo compartes con amigos
 3. Ellos se registran usando tu código
-4. Cuando pagan, recibes $2.00 automáticamente
+4. Cuando pagan → **tú ganas $2** + **ellos ganan +1 caja**
 
 ### Límites:
 
-- Máximo **30% del total** de usuarios pueden ser tus referidos
-- Ejemplo: Si hay 1,000 usuarios, máximo 300 pueden ser referidos tuyos
+- Máximo **30% del total** de participantes pueden ser tus referidos
+- Ejemplo: 1,000 participantes = máximo 300 referidos tuyos
 
-### Bonos Adicionales (Mystery Boxes):
+### Bonos por Hitos:
 
-| Referidos | Bonus                                                 |
-| --------- | ----------------------------------------------------- |
-| 5         | 🔵 Caja RARA garantizada                              |
-| 10        | 🟡 Caja ÉPICA garantizada                             |
-| 20 o más  | 🟠 Caja LEGENDARIA garantizada (primeros 20 usuarios) |
+| Referidos | Bonus Extra                      |
+| --------- | -------------------------------- |
+| 5         | 🔵 Caja RARA garantizada         |
+| 10        | 🟡 Caja ÉPICA garantizada        |
+| 20+       | 🟠 Caja LEGENDARIA garantizada\* |
 
-⚠️ Las cajas Legendarias para referidos están garantizadas solo para los **primeros 20 usuarios** que alcancen 20 o más referidos.
+\*Primeros 20 usuarios en alcanzar la meta.
 
 ### Ejemplo con 20 Referidos:
 
-- Comisiones: 20 × $2.00 = **$40**
-- Bonos: Cajas RARA + ÉPICA + LEGENDARIA
-- **Total:** $40 + premios de cajas (~$30 adicionales)
-- **Total aproximado:** $70
+| Concepto        | Ganancia          |
+| --------------- | ----------------- |
+| Comisiones      | 20 × $2 = **$40** |
+| Caja RARA       | ~$4               |
+| Caja ÉPICA      | ~$8               |
+| Caja LEGENDARIA | ~$18              |
+| **TOTAL**       | **~$70**          |
 
 ---
 
 ## 💸 Retiros
 
-Puedes retirar tus ganancias en cualquier momento.
+Retira tus ganancias cuando quieras.
 
 ### Proceso:
 
-1. Acumulas premios en tu balance (dashboard web)
-2. Solicitas retiro desde la sección **Retiros**
-3. Ingresas tu dirección de wallet (Polygon)
-4. Revisión manual por el equipo (24-48h)
-5. Transferencia directa a tu wallet
+1. Ve a **Dashboard → Retiros**
+2. Ingresa el monto
+3. Ingresa tu dirección de bóveda (Polygon)
+4. Espera aprobación (24-48h)
+5. ✅ Recibes tus dólares digitales
 
 ### Condiciones:
 
-- ✅ **Mínimo:** $10 DAI
-- ✅ **Red:** Polygon únicamente
-- ✅ **Verificación:** La dirección debe ser válida
-- ✅ **Comisión:** Sin comisión de retiro
+| Requisito | Detalle            |
+| --------- | ------------------ |
+| Mínimo    | $10 DAI            |
+| Red       | Polygon únicamente |
+| Comisión  | **Sin comisión**   |
+| Tiempo    | 24-48 horas        |
 
 ---
 
-## 📅 Timeline de Premios
+## 📅 Cuándo Recibes tus Premios
 
-| Fecha          | Evento                             |
-| -------------- | ---------------------------------- |
-| Durante torneo | Mini torneos distribuidos          |
-| Durante torneo | Mystery boxes asignadas            |
-| Durante torneo | Comisiones de referidos            |
-| 19 Jul 2026    | Final del Mundial                  |
-| 20-21 Jul 2026 | Verificación de resultados         |
-| 22 Jul 2026    | Ranking final publicado            |
-| 23-24 Jul 2026 | Procesamiento de premios           |
-| 25 Jul 2026    | **Todos los premios distribuidos** |
+| Premio         | Cuándo                         |
+| -------------- | ------------------------------ |
+| Referidos      | Inmediato al pagar el referido |
+| Mini Torneos   | Al terminar cada jornada       |
+| Mystery Boxes  | Al abrirlas                    |
+| Pool Principal | 25 julio 2026                  |
 
----
+### Timeline Post-Mundial:
 
-## 🎯 Ejemplo Completo: Jugador Exitoso
-
-**Escenario:** 1,000 jugadores totales
-
-### Tu Desempeño:
-
-| Concepto       | Logro                  | Premio      |
-| -------------- | ---------------------- | ----------- |
-| Pool Principal | 🥇 1er lugar           | $10,000     |
-| Mini Torneos   | 🥈 2do en Jornada 2    | $75         |
-| Mystery Boxes  | 2 ÉPICAS, 1 LEGENDARIA | ~$34        |
-| Referidos      | 8 amigos               | $16         |
-| **TOTAL**      | -                      | **$10,125** |
-
-**Inversión:** $30  
-**Ganancia neta:** $10,095  
-**ROI:** 336x tu inversión 🚀
+| Fecha      | Evento                       |
+| ---------- | ---------------------------- |
+| 19 Jul     | Final del Mundial            |
+| 20-21 Jul  | Verificación de resultados   |
+| 22 Jul     | Ranking final publicado      |
+| 23-24 Jul  | Procesamiento de premios     |
+| **25 Jul** | **💰 Distribución completa** |
 
 ---
 
-## 🔒 Transparencia
+## 🎯 Ejemplo: El Jugador Soñado
 
-### Verificación en Blockchain:
+**Escenario:** 1,000 participantes
 
-- Todos los pagos verificables en Polygon
-- Hash de mystery boxes pre-generado publicado (9 Jun 2026)
-- Sistema de puntuación público y verificable
+| Categoría         | Logro                   | Premio      |
+| ----------------- | ----------------------- | ----------- |
+| 🏆 Pool Principal | 1er lugar               | $10,000     |
+| 🎮 Mini Torneos   | 2do en Jornada 2        | $75         |
+| 🎁 Mystery Boxes  | 2 ÉPICAS + 1 LEGENDARIA | ~$34        |
+| 👥 Referidos      | 8 amigos                | $16         |
+| **TOTAL**         |                         | **$10,125** |
+
+**Inversión:** $30
+**Ganancia neta:** $10,095
+**ROI:** 336x 🚀
+
+---
+
+## 🔒 Transparencia Total
+
+### Todo verificable:
+
+- ✅ Pagos en blockchain público (Polygon)
+- ✅ Hash de mystery boxes publicado (9 junio 2026)
+- ✅ Sistema de puntuación público
+- ✅ Algoritmos documentados
 
 ### Auditoría:
 
 - Balance total = suma de entradas
 - Pool principal = 66.67% exacto
-- Mystery boxes = 6.67% con reservas garantizadas
-- Premios distribuidos = balance acumulado
+- Premios = todo trazable en blockchain
 
 ---
 
-## ❓ Preguntas Frecuentes
+## ❓ Preguntas Rápidas
 
-**¿Cuándo recibo mis premios?**
+**¿Puedo ganar en varias categorías?**
+✅ Sí, todas son independientes.
 
-- Pool principal: 25 Jul 2026
-- Mini torneos: Durante el torneo
-- Mystery boxes: Al abrirlas
-- Referidos: Inmediato al pagar
+**¿Los premios son en dólares?**
+✅ Sí, en DAI (1 DAI = 1 USD).
 
-**¿Puedo ganar múltiples premios?**  
-✅ Sí, puedes ganar en todas las categorías simultáneamente
+**¿Hay impuestos?**
+⚠️ Tu responsabilidad según las leyes de tu país.
 
-**¿Los premios son en DAI?**  
-✅ Sí, todos los premios se pagan en DAI en red Polygon
+**¿Qué pasa si uso código de referido?**
+✅ Tu amigo gana $2 + tú ganas +1 Mystery Box COMÚN extra.
 
-**¿Qué significa "primeros 20 usuarios" en cajas Legendarias?**  
-Los primeros 20 usuarios en alcanzar 20 o más referidos reciben caja Legendaria garantizada. Después de eso, están sujetas a disponibilidad.
+---
 
-**¿Hay impuestos?**  
-⚠️ Responsabilidad del ganador según las leyes de su país
+**¿Más preguntas?** → [FAQ](faq.md)
+
+**¿Listo para ganar?** → [@coinmatchpool_bot](https://t.me/coinmatchpool_bot)
 
 ---
 

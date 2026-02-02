@@ -1,179 +1,179 @@
 ﻿# ❓ Preguntas Frecuentes
 
-Respuestas a las dudas más comunes sobre CoinMatch Pool.
+Todo lo que necesitas saber sobre CoinMatch Pool, explicado fácil.
 
 ---
 
-## 🎮 General
+## 🎮 Lo Básico
 
 ### ¿Qué es CoinMatch Pool?
 
-Es una **competencia de predicciones** del Mundial 2026 donde pronosticas el resultado exacto de los 103 partidos del torneo. Los premios se pagan en DAI (criptomoneda estable).
+Una **competencia de predicciones** para el Mundial 2026. Predices el marcador exacto de 103 partidos y compites contra otros participantes. Los mejores ganan premios en dólares digitales.
 
-En países de habla hispana, este formato es tradicionalmente conocido como polla, quiniela, penca o prode; sin embargo, en CoinMatch Pool se estructura como una competencia digital moderna, alineada con principios de transparencia, trazabilidad y consistencia competitiva.
+Es como la clásica "polla" o "quiniela" de toda la vida, pero con tecnología moderna que garantiza transparencia y pagos seguros.
+
+### ¿Cuánto cuesta participar?
+
+**$30 dólares digitales (DAI)** — una sola vez.
+
+Ese dinero se reparte así:
+
+| Destino           | Monto | Para qué                    |
+| ----------------- | ----- | --------------------------- |
+| 🏆 Pool Principal | $20   | Premios Top 3               |
+| 🎮 Mini Torneos   | $1    | Premios por jornada         |
+| 🎁 Mystery Boxes  | $2    | Cajas sorpresa              |
+| 👥 Referidos      | $2    | Comisiones por invitar      |
+| ⚙️ Operación      | $5    | Mantenemos todo funcionando |
 
 ### ¿Es legal?
 
-Las competencias de predicciones entre amigos son legales en la mayoría de países. Sin embargo, **es tu responsabilidad** verificar las leyes de tu jurisdicción. No operamos como casa de apuestas regulada.
+Las competencias de predicciones entre amigos son legales en la mayoría de países. **Es tu responsabilidad** verificar las leyes donde vives. No somos casa de apuestas.
 
 ### ¿Es seguro?
 
-✅ **Sí.** Usamos tecnología blockchain verificable:
+✅ **Sí.** Tu dinero está protegido:
 
-- Pagos en blockchain público (Polygon)
-- Sistema de wallets separadas (seguridad)
-- Algoritmos de puntuación públicos
-- Hash pre-torneo para transparencia
+- Pagos verificables en blockchain público
+- Tu dinero en TU bóveda, no en la nuestra
+- Sistema de puntuación público y auditable
+- Sin trucos, todo transparente
 
-### ¿Cuántos jugadores pueden participar?
+### ¿Cuántos pueden participar?
 
-**Mínimo:** 100 jugadores (para que sea interesante)  
-**Máximo:** 2,000 jugadores (límite operativo)
+- **Mínimo:** 100 participantes
+- **Máximo:** 2,000 participantes
 
 ---
 
-## 🎁 Programa de Acceso Temprano
+## ⭐ Programa Founders (Whitelist)
 
-### ¿Qué es la Whitelist?
+### ¿Qué es el Programa Founders?
 
-Inscripción **gratuita** que te da acceso a torneos Beta antes del Mundial y oportunidad de ganar entrada gratis.
+Es el acceso anticipado para los **primeros 100 participantes** que se registren antes del 31 de marzo 2026.
 
-**Beneficios:**
+### ¿Es gratis?
 
-- ✅ Acceso a 3 torneos Beta (Abril-Mayo 2026)
-- ✅ Competir por entrada gratis al Mundial
-- ✅ Aprender el sistema sin riesgo
-- ✅ Solo necesitas Telegram + conectar wallet
+No. Al registrarte en la whitelist **pagas tu entrada de $30 DAI**.
+
+La diferencia es que obtienes beneficios exclusivos:
+
+| Beneficio           | Descripción                        |
+| ------------------- | ---------------------------------- |
+| 🏆 Torneos Beta     | 3 torneos de práctica (Abril-Mayo) |
+| 💬 Founders Lounge  | Grupo privado de Telegram          |
+| 🎁 Rifa Exclusiva   | Mystery Boxes especiales           |
+| 🏅 Insignia Founder | Badge permanente en tu perfil      |
 
 ### ¿Qué son los Torneos Beta?
 
-3 torneos de práctica **gratuitos** antes del Mundial:
+3 torneos de práctica donde puedes **recuperar tu entrada**:
 
-| Torneo | Competencia       | Partidos | Premio 1er Lugar                     |
-| ------ | ----------------- | -------- | ------------------------------------ |
-| Beta 1 | Liga BetPlay Col  | 10       | Entrada gratis CoinMatch del Mundial |
-| Beta 2 | Copa Libertadores | 8        | Entrada gratis CoinMatch del Mundial |
-| Beta 3 | Champions League  | 6        | Entrada gratis CoinMatch del Mundial |
+| Torneo | Competencia           | Partidos | Premio 1er Lugar      |
+| ------ | --------------------- | -------- | --------------------- |
+| Beta 1 | Liga BetPlay Colombia | 10       | **Devolución de $30** |
+| Beta 2 | Copa Libertadores     | 8        | **Devolución de $30** |
+| Beta 3 | Champions League      | 6        | **Devolución de $30** |
 
-**Solo el 1er lugar** de cada torneo gana entrada gratis ($30).
+**¿Ganaste un Beta?** → Te devolvemos tus $30
+**¿No ganaste?** → Ya estás inscrito para el Mundial
 
-### ¿Cuándo abre la Whitelist?
+### ¿Cuándo cierra la whitelist?
 
-**Marzo 2026** - Completamente gratis, solo registro en Telegram.
+**31 de marzo 2026** — Solo 100 spots disponibles.
 
 ---
 
-## 💰 Pagos y Criptomonedas
+## 💵 Dinero Digital (Cripto)
 
 ### ¿Qué es DAI?
 
-**DAI** es una criptomoneda estable (stablecoin):
+Es un **dólar digital**:
 
 - 1 DAI = 1 USD (siempre)
-- No fluctúa como Bitcoin
-- Funciona en blockchain Polygon
-- Se puede convertir a dólares fácilmente
+- No sube ni baja como Bitcoin
+- Puedes convertirlo a dólares reales fácilmente
 
-### ¿Cómo obtengo DAI?
+Lo usamos porque es transparente, rápido y las comisiones son bajísimas.
 
-**Opción 1: Comprar en exchange**
+### ¿Qué es una "bóveda digital" (wallet)?
 
-- Binance, Coinbase, Kraken
-- Compra con tarjeta o transferencia
-- Retira a tu wallet en red Polygon
+Es como una **caja fuerte en tu celular** donde guardas tu dinero digital. Solo tú tienes la llave (tu contraseña secreta de 12 palabras).
 
-**Opción 2: Cambiar criptomonedas**
-
-- Si tienes USDT, USDC, ETH, etc.
-- Usa un DEX (Uniswap, QuickSwap en Polygon)
-- Cambia a DAI en Polygon
-
-**Opción 3: Bridge desde Ethereum**
-
-- Si tienes DAI en Ethereum
-- Usa Polygon Bridge oficial
-- Transferir a Polygon (costo ~$5-10)
+Recomendamos **MetaMask** — es gratis y fácil de usar.
 
 ### ¿Por qué Polygon y no Ethereum?
 
-**Polygon es más barato:**
+Porque es **mucho más barato**:
 
-- Ethereum: ~$10-20 por transacción
-- Polygon: ~$0.01 por transacción
+| Red      | Costo por transacción |
+| -------- | --------------------- |
+| Ethereum | $10-20 😱             |
+| Polygon  | $0.01 ✅              |
 
-Tu entrada es $30, no queremos que pierdas $20 en gas fees.
+No queremos que pierdas $20 solo en comisiones.
+
+### ¿Cómo consigo DAI?
+
+**Opción A: Comprar con tarjeta** (más fácil)
+
+1. Abre MetaMask
+2. Toca "Comprar"
+3. Selecciona tu país y método de pago
+4. Compra $35 DAI (un poco extra para comisiones)
+
+**Opción B: Usar exchange**
+
+1. Crea cuenta en Binance, Coinbase, etc.
+2. Compra DAI
+3. Envía a tu bóveda (red Polygon)
+
+💡 **¿Perdido?** El bot te guía paso a paso: escribe `/wallet` o `/dai`
 
 ### ¿Puedo pagar con otra criptomoneda?
 
 ❌ No. Solo aceptamos **DAI en red Polygon**.
 
-Si tienes otra cripto, debes convertirla a DAI primero.
-
-### ¿Qué wallet necesito?
-
-Cualquiera compatible con Polygon:
-
-- ✅ MetaMask (recomendado)
-- ✅ Trust Wallet
-- ✅ Coinbase Wallet
-- ✅ Rainbow Wallet
-
-### ¿Cómo pago mi entrada?
-
-**Proceso simplificado con WalletConnect:**
-
-1. Accede al **dashboard web** (link desde el bot de Telegram)
-2. Click en **"Connect Wallet"** (esquina superior derecha)
-3. Selecciona tu wallet (MetaMask, Trust Wallet, WalletConnect, etc.)
-4. Asegúrate de estar en red **Polygon**
-5. Click en **"Pagar 30 DAI"**
-6. Aprueba la transacción en tu wallet
-
-⏱️ El sistema detectará tu pago automáticamente en ~1 minuto.
-
-✅ **Ventaja:** No necesitas copiar addresses manualmente, todo se configura automáticamente.
+Si tienes otra cripto, conviértela a DAI primero.
 
 ---
 
 ## 🎯 Predicciones
 
-### ¿Cuándo puedo empezar a predecir?
+### ¿Cómo hago mis predicciones?
 
-Tan pronto como pagues tu entrada. El sistema estará abierto desde **Marzo 2026**.
+1. Entra al **dashboard web** (coinmatchpool.com/dashboard)
+2. Selecciona la jornada
+3. Ingresa el marcador para cada partido (ej: Argentina 2 - Brasil 1)
+4. Guarda antes del deadline
 
 ### ¿Puedo cambiar mis predicciones?
 
-✅ **Sí**, ANTES del deadline de cada jornada.  
-❌ **No**, DESPUÉS del deadline.
+✅ **Sí**, las veces que quieras ANTES del deadline
+❌ **No**, después del deadline se bloquean
 
-### ¿Qué pasa si no predigo todos los partidos?
+### ¿Qué pasa si no predigo un partido?
 
-Los partidos que no predices = **0 puntos**.
-
-No estás obligado a predecir todos, pero es recomendable para maximizar puntos.
+Ese partido = **0 puntos**. No estás obligado a predecir todos, pero te conviene.
 
 ### ¿Cuentan los penales?
 
-❌ **NO.** Solo cuenta el resultado en tiempo completo (90 min + tiempo extra).
+❌ **NO.** Solo cuenta el marcador en tiempo completo (90 min + tiempo extra).
 
 **Ejemplo:**
 
-- Partido termina 1-1 y se define por penales
-- El marcador final es **1-1** (penales no cuentan)
+- Partido termina 1-1, se define en penales 4-3
+- Marcador final para nosotros: **1-1**
 
-### ¿Y el tiempo extra?
+### ¿Cuenta el tiempo extra?
 
-✅ **SÍ cuenta.**
+✅ **SÍ.**
 
 **Ejemplo:**
 
 - Partido va 1-1 en 90 minutos
-- En tiempo extra uno anota
-- El marcador final es **2-1**
-
-### ¿Qué pasa si un partido se suspende?
-
-Se usa el **resultado oficial de FIFA**. Si el partido se reprograma, actualizamos el deadline.
+- En tiempo extra anotan
+- Marcador final: **2-1**
 
 ---
 
@@ -181,69 +181,59 @@ Se usa el **resultado oficial de FIFA**. Si el partido se reprograma, actualizam
 
 ### ¿Cuánto puedo ganar?
 
-Depende de:
+Depende de cuántos participantes haya:
 
-1. **Tu posición** en el ranking
-2. **Cantidad de jugadores** totales
-3. **Premios extra** (mini torneos, cajas, referidos)
+| Participantes | 1er Lugar | 2do Lugar | 3er Lugar |
+| ------------- | --------- | --------- | --------- |
+| 100           | $1,000    | $600      | $400      |
+| 500           | $5,000    | $3,000    | $2,000    |
+| 1,000         | $10,000   | $6,000    | $4,000    |
+| 2,000         | $20,000   | $12,000   | $8,000    |
 
-**Ejemplo con 1,000 jugadores:**
-
-- 1er lugar: $10,000
-- 2do lugar: $6,000
-- 3er lugar: $4,000
+**Además:** Mini torneos, mystery boxes y comisiones por referidos.
 
 ### ¿Cuándo recibo mis premios?
 
-| Premio         | Cuándo         |
-| -------------- | -------------- |
-| Pool Principal | 25 Jul 2026    |
-| Mini Torneos   | Durante torneo |
-| Mystery Boxes  | Al abrirlas    |
-| Referidos      | Inmediato      |
+| Premio         | Cuándo             |
+| -------------- | ------------------ |
+| Pool Principal | 25 julio 2026      |
+| Mini Torneos   | Durante el Mundial |
+| Mystery Boxes  | Al abrirlas        |
+| Referidos      | Inmediato          |
 
 ### ¿Cómo retiro mis ganancias?
 
-**Desde el dashboard web:**
+1. Ve a **Dashboard → Retiros**
+2. Ingresa el monto (mínimo $10)
+3. Ingresa tu dirección de bóveda
+4. Espera 24-48h (revisión manual)
+5. ✅ Recibes tus dólares digitales
 
-1. Accede a **https://coinmatchpool.com/dashboard**
-2. Sección **"Retiros"**
-3. Ingresa monto que deseas retirar
-4. Ingresa tu dirección de wallet (Polygon)
-5. Confirma solicitud
-6. Espera aprobación manual (24-48h)
-7. Recibes DAI en tu wallet
-
-**Mínimo:** $10 DAI
-
-### ¿Cobran comisión por retiro?
-
-❌ No cobramos comisión adicional por retiros.
+**Sin comisiones** de retiro.
 
 ### ¿Debo pagar impuestos?
 
-⚠️ Depende de tu país. Es **tu responsabilidad** declarar ganancias si aplica.
+⚠️ Depende de tu país. Es **tu responsabilidad** declarar si aplica.
 
 ---
 
 ## 👥 Referidos
 
-### ¿Cómo funciona el sistema de referidos?
+### ¿Cómo funciona?
 
-1. Obtienes tu código: CM00123
+1. Obtienes tu código único (ej: CM00042)
 2. Lo compartes con amigos
-3. Ellos se registran con tu código
-4. Cuando pagan, ganas $2.00
+3. Ellos se registran usando tu código
+4. Cuando pagan → **tú ganas $2**
+5. Ellos también ganan → **+1 Mystery Box COMÚN**
+
+¡Ambos ganan! 🎁
 
 ### ¿Cuántos amigos puedo referir?
 
-**Ilimitado** en teoría, pero hay un límite del **30% del total**.
+Máximo **30% del total** de participantes.
 
-**Ejemplo:**
-
-- 1,000 jugadores totales
-- Máximo 300 pueden ser referidos tuyos
-- Si ya hay 300 referidos, no se aceptan más
+**Ejemplo:** Si hay 1,000 participantes, máximo 300 pueden ser tus referidos.
 
 ### ¿Puedo referirme a mí mismo?
 
@@ -251,174 +241,142 @@ Depende de:
 
 ### ¿Puedo crear varias cuentas?
 
-❌ **Prohibido.** Violación = descalificación de todas tus cuentas.
+❌ **Prohibido.** Violación = descalificación de todas tus cuentas + pérdida de entrada.
 
-### ¿Qué son las cajas de referidos?
+### ¿Qué bonos extra hay por referidos?
 
-Bonos adicionales por referir amigos:
+| Referidos | Bonus                            |
+| --------- | -------------------------------- |
+| 5         | 🔵 Caja RARA garantizada         |
+| 10        | 🟡 Caja ÉPICA garantizada        |
+| 20+       | 🟠 Caja LEGENDARIA garantizada\* |
 
-- 5 referidos → Caja RARA garantizada
-- 10 referidos → Caja ÉPICA garantizada
-- 20 o más referidos → Caja LEGENDARIA garantizada (primeros 20 usuarios)
+\*Primeros 20 usuarios en alcanzar esta meta.
 
 ---
 
 ## 🎁 Mystery Boxes
 
-### ¿Cómo consigo mystery boxes?
+### ¿Cómo consigo cajas?
 
-4 formas:
+| Forma                     | Cajas                |
+| ------------------------- | -------------------- |
+| Pagar entrada             | 1 caja de bienvenida |
+| Usar código de referido   | +1 caja COMÚN extra  |
+| Quedar Top 10 por jornada | 1 caja por jornada   |
+| Logros especiales         | Varía                |
+| Referir amigos            | Según hitos          |
 
-1. **Bienvenida:** 1 caja al pagar
-2. **Top 10:** Por jornada (quedar Top 10)
-3. **Logros:** Marcadores exactos (sujeto a disponibilidad)
-4. **Referidos:** 5, 10, 20 amigos (garantizadas)
+### ¿Qué premios tienen?
 
-### ¿Cuánto puedo ganar en una caja?
+| Rareza        | Probabilidad | Premio aprox. |
+| ------------- | ------------ | ------------- |
+| 🟣 MÍTICA     | 0.5%         | $80.00        |
+| 🟠 LEGENDARIA | 4.5%         | ~$17.78       |
+| 🟡 ÉPICA      | 10%          | ~$8.00        |
+| 🔵 RARA       | 20%          | ~$4.00        |
+| 🟢 COMÚN      | 30%          | ~$2.67        |
+| ⚪ BÁSICA     | 35%          | $0.00         |
 
-Depende de la rareza (con 1,000 jugadores):
+### ¿Las cajas expiran?
 
-- 🟣 MÍTICA: $80.00 fijo
-- 🟠 LEGENDARIA: ~$17.78
-- 🟡 ÉPICA: ~$8.00
-- 🔵 RARA: ~$4.00
-- 🟢 COMÚN: ~$2.67
-- ⚪ BÁSICA: $0.00
-
-**Ejemplo:** Si abres 5 cajas y obtienes 1 Épica, 2 Raras y 2 Básicas = $8 + $4 + $4 + $0 + $0 = **$16 total**
-
-### ¿Puedo guardar cajas para después?
-
-✅ Sí, las cajas no expiran. Ábrelas cuando quieras desde el dashboard web.
-
-### ¿Qué significa "primeros 20 usuarios" en cajas Legendarias?
-
-Los primeros 20 usuarios en alcanzar 20 o más referidos reciben caja Legendaria garantizada. Después de eso, están sujetas a disponibilidad.
+No. Ábrelas cuando quieras desde el dashboard.
 
 ---
 
 ## 🔒 Seguridad
 
-### ¿Dónde están mis $30?
+### ¿Dónde está mi dinero?
 
-Tu pago va a una **wallet HD (Hierarchical Deterministic)**:
+En **tu propia bóveda** (wallet). Nosotros no tenemos acceso a tus fondos.
 
-- Cada usuario tiene una address única
-- Los fondos se consolidan en wallets seguras
-- 70-80% en **cold storage** (offline)
-- 20-30% en **wallet operativa** (para pagos)
+Cuando pagas la entrada, va a una wallet segura del sistema:
 
-### ¿Pueden robar los fondos?
+- 70-80% en **cold storage** (offline, súper seguro)
+- 20-30% en **wallet operativa** (para pagos rápidos)
 
-**Muy difícil:**
-
-- Seeds guardadas en metal backup (caja fuerte)
-- Wallets separadas (no todo en un lugar)
-- Cold storage NUNCA conectada a internet
-- Procedimientos de seguridad estrictos
-
-### ¿Qué pasa si el operador desaparece?
-
-**Transparencia:**
-
-- Balance verificable en blockchain
-- Hash pre-torneo publicado
-- Sistema de puntuación público
-
-Si hay irregularidades, la comunidad puede verificarlo en la blockchain.
-
-### ¿Puedo confiar en el sistema?
-
-**Verificable:**
-
-- ✅ Código de puntuación público
-- ✅ Transacciones en blockchain público
-- ✅ Algoritmos documentados
-- ✅ Hash para verificar integridad
-
-**Riesgo:** Como toda plataforma nueva, existe riesgo. Solo participa con dinero que puedas perder.
-
----
-
-## 📱 Telegram Bot
-
-### ¿Por qué Telegram?
-
-- ✅ Accesible desde móvil
-- ✅ Notificaciones en tiempo real
-- ✅ Fácil de usar
-- ✅ No requiere instalar app
-
-### ¿El bot tiene acceso a mis fondos?
+### ¿El bot puede robar mi dinero?
 
 ❌ **NO.** El bot solo:
 
-- Te registra en el sistema
+- Te registra
 - Te envía notificaciones
-- Te da links al dashboard web
+- Te da links
 
-**Nunca** tiene acceso a claves privadas o fondos.
+**Nunca** tiene acceso a tus claves privadas ni fondos.
 
-### ¿Puedo usar el bot desde varios dispositivos?
+### ¿Puedo confiar en el sistema?
 
-✅ Sí, Telegram sincroniza en todos tus dispositivos.
+Todo es **verificable**:
 
-### ¿Qué pasa si pierdo mi Telegram?
+- ✅ Transacciones en blockchain público
+- ✅ Algoritmos de puntuación publicados
+- ✅ Hash pre-torneo para transparencia
 
-Puedes recuperar tu cuenta Telegram con tu número de teléfono. Tu usuario en CoinMatch Pool está vinculado a tu Telegram ID.
+**Realidad:** Como toda plataforma nueva, existe riesgo. Solo participa con dinero que puedas perder.
 
 ---
 
-## 🌍 Internacional
+## 📱 Telegram
 
-### ¿Desde qué países puedo participar?
+### ¿Por qué usan Telegram?
 
-**Cualquier país** excepto donde las criptomonedas o competencias de predicciones sean ilegales.
+- ✅ Funciona en cualquier celular
+- ✅ Notificaciones en tiempo real
+- ✅ No necesitas instalar otra app
+- ✅ Fácil de usar
 
-**Verifica** las leyes de tu país antes de participar.
+### ¿Qué pasa si pierdo mi Telegram?
 
-### ¿El bot está en español?
-
-✅ Sí, todo el sistema está en español.
-
-### ¿A qué hora son los deadlines?
-
-Todas las horas en **UTC-5** (Hora de Colombia/Perú/Ecuador).
+Recupera tu cuenta con tu número de teléfono. Tu perfil de CoinMatch Pool está vinculado a tu Telegram ID.
 
 ---
 
 ## ⚠️ Problemas Comunes
 
-### No veo mi pago confirmado
+### No aparece mi pago
 
-**Solución:**
-
-1. Verifica que enviaste exactamente **30 DAI**
-2. Verifica que usaste red **Polygon** (no Ethereum)
+1. ¿Enviaste exactamente **30 DAI**?
+2. ¿Usaste red **Polygon**? (no Ethereum)
 3. Espera 1-2 minutos
-4. Revisa el dashboard web en sección "Balance"
+4. Revisa en Dashboard → Balance
 
-Si persiste, el bot te ayudará.
+¿Sigue sin aparecer? Escribe al bot.
 
 ### No puedo hacer predicciones
 
-**Causas:**
+Posibles causas:
 
 - ❌ No has pagado tu entrada
 - ❌ El deadline ya pasó
 - ❌ La jornada está bloqueada
 
-### Olvidé hacer predicciones
+### Olvidé predecir un partido
 
-❌ No hay forma de recuperar partidos pasados. Debes estar atento a los deadlines.
+❌ No hay forma de recuperarlo. Mantente atento a los deadlines.
 
 ### Mi código de referido no funciona
 
-**Verifica:**
+Verifica:
 
-- ✅ Que el código sea correcto
-- ✅ Que no estés auto-referenciándote
-- ✅ Que el límite de referidos no se haya alcanzado
+- ✅ Código correcto (sin espacios)
+- ✅ No te estás auto-refiriendo
+- ✅ El límite de referidos no se alcanzó
+
+---
+
+## 📅 Fechas Clave
+
+| Fecha              | Evento                     |
+| ------------------ | -------------------------- |
+| **Marzo 2026**     | Abre whitelist (100 spots) |
+| **31 Marzo 2026**  | ⏰ Cierra whitelist        |
+| **Abril 2026**     | Torneos Beta 1 y 2         |
+| **Mayo 2026**      | Torneo Beta 3              |
+| **1-9 Junio 2026** | Inscripción general        |
+| **11 Junio 2026**  | 🏆 INICIA EL MUNDIAL       |
+| **19 Julio 2026**  | Final del Mundial          |
+| **25 Julio 2026**  | 💰 Distribución de premios |
 
 ---
 
@@ -426,38 +384,24 @@ Si persiste, el bot te ayudará.
 
 ### ¿Cómo contacto soporte?
 
-El **bot principal** (@CoinMatchPoolBot) tiene IA integrada que responde la mayoría de preguntas automáticamente.
+Escribe tu duda directamente al bot **@coinmatchpool_bot** — tiene IA integrada que responde 24/7.
 
-Simplemente escribe tu duda en el chat del bot.
+### ¿Hay comunidad?
 
-**Horario:** 24/7 (respuesta automática)
+✅ Sí:
 
-### ¿Hay grupo de comunidad?
-
-✅ Sí, próximamente anunciaremos el grupo oficial de Telegram.
-
----
-
-## 📅 Fechas Clave
-
-| Fecha        | Evento                  |
-| ------------ | ----------------------- |
-| Marzo 2026   | Whitelist abre (gratis) |
-| Abril 2026   | Torneos Beta 1 y 2      |
-| Mayo 2026    | Torneo Beta 3           |
-| 1-9 Jun 2026 | Pagos de entrada ($30)  |
-| 9 Jun 2026   | Cierre de inscripciones |
-| 11 Jun 2026  | Inicio del Mundial      |
-| 19 Jul 2026  | Final del Mundial       |
-| 25 Jul 2026  | Distribución de premios |
+- **Canal Oficial:** @coinmatchpool_oficial (anuncios)
+- **Grupo Comunidad:** @coinmatchpool_chat (conversación)
 
 ---
 
-## 🚀 ¿Listo para Jugar?
+## 🚀 ¿Listo?
 
-Si no encontraste tu pregunta aquí, únete al bot y pregunta:
+**Paso 1:** Únete al canal → [@coinmatchpool_oficial](https://t.me/coinmatchpool_oficial)
 
-**@CoinMatchPoolBot** _(próximamente)_
+**Paso 2:** Activa el bot → [@coinmatchpool_bot](https://t.me/coinmatchpool_bot)
+
+**¿Más dudas?** Pregúntale al bot, responde al instante 💬
 
 ---
 
