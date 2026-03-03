@@ -6,17 +6,17 @@ Todas las formas de ganar en CoinMatch Pool.
 
 ## 🎁 Programa Founders (Acceso Anticipado)
 
-**Los primeros 100 participantes antes del 31 de marzo 2026:**
+**Los primeros 100 participantes antes del 22 de marzo 2026:**
 
 ### 1. 🏆 Torneos Beta
 
 Compite en 3 torneos de práctica y recupera tu entrada:
 
-| Torneo     | Competencia       | Fecha      | Premio 1er Lugar      |
-| ---------- | ----------------- | ---------- | --------------------- |
-| **Beta 1** | Liga BetPlay Col  | Abril 2026 | **Devolución de $30** |
-| **Beta 2** | Copa Libertadores | Abril 2026 | **Devolución de $30** |
-| **Beta 3** | Champions League  | Mayo 2026  | **Devolución de $30** |
+| Torneo     | Competencia              | Fecha           | Premio 1er Lugar      |
+| ---------- | ------------------------ | --------------- | --------------------- |
+| **Beta 1** | Amistosos Fecha FIFA     | Marzo 2026      | **Devolución de $30** |
+| **Beta 2** | Liga BetPlay Colombia    | Abril 2026      | **Devolución de $30** |
+| **Beta 3** | Liga MX                  | Mayo 2026       | **Devolución de $30** |
 
 **Solo el 1er lugar** de cada torneo recibe devolución.
 **Solo Founders** pueden participar.
@@ -59,7 +59,7 @@ Badge permanente visible en:
 **¿No ganaste?** → Ya estás inscrito para el Mundial
 
 **Límite:** 100 spots
-**Fecha límite:** 31 marzo 2026
+**Fecha límite:** 22 marzo 2026
 
 ---
 
@@ -172,11 +172,22 @@ Cajas sorpresa con 6 niveles de rareza.
 
 #### 1. 🎉 Caja de Bienvenida
 
-Al pagar tu entrada → **1 caja automática**
+**WHITELIST (Marzo 1-22):**
+- Al pagar tu entrada → **1 Mystery Box incluida**
+
+**EARLY BIRD (Mayo 15-31):**
+- Sin Mystery Box incluida
+- ✅ +1 Mystery Box COMÚN si usas código referido
+
+**GENERAL (Junio 1-9):**
+- Sin Mystery Box incluida
+- ✅ +1 Mystery Box COMÚN si usas código referido
 
 #### 2. 🎁 Usar Código de Referido
 
-Si usas el código de un amigo al registrarte → **+1 caja COMÚN extra**
+**Para TODOS los niveles de inscripción:**
+- Referido: +1 Mystery Box COMÚN
+- Referidor: $2 DAI
 
 #### 3. 🏆 Top 10 por Jornada
 

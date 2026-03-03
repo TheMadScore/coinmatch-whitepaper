@@ -1,11 +1,10 @@
 ﻿# 🗓️ Roadmap
 
-Tu camino hacia la gloria en el Mundial 2026.
+Tu camino hacia la gloria en el Mundial de la FIFA 2026.
 
 ---
 
 ## 🎯 Visión General
-
 ```
 MARZO 2026        →  Programa Founders (100 spots)
      ↓
@@ -25,7 +24,7 @@ JULIO 25          →  💰 Distribución de Premios
 ### Acceso Anticipado (100 Spots)
 
 **Fecha de inicio:** 1 Marzo 2026
-**Fecha límite:** 31 Marzo 2026
+**Fecha límite:** 22 Marzo 2026
 
 **Costo:** $30 DAI (entrada al Mundial)
 
@@ -49,32 +48,30 @@ JULIO 25          →  💰 Distribución de Premios
 
 ---
 
-## 📅 ABRIL 2026: Torneos Beta (Parte 1)
+## 📅 MARZO-ABRIL-MAYO 2026: Torneos Beta
 
-### Beta 1: Liga BetPlay Colombia
+### Beta 1: Amistosos Fecha FIFA
 
-**Fechas:** 5-12 Abril 2026
-**Partidos:** 10 partidos
+**Fechas:** 23-31 Marzo 2026
+**Partidos:** ~10 partidos
 **Objetivo:** Aprender el sistema de predicciones
 **Premio:** 🥇 1er lugar → **Devolución de $30**
 
 ---
 
-### Beta 2: Copa Libertadores
+### Beta 2: Liga BetPlay Colombia
 
-**Fechas:** 19-26 Abril 2026
-**Partidos:** 8 partidos
+**Fechas:** Abril 2026
+**Partidos:** ~10 partidos
 **Objetivo:** Perfeccionar tu estrategia
 **Premio:** 🥇 1er lugar → **Devolución de $30**
 
 ---
 
-## 📅 MAYO 2026: Torneos Beta (Parte 2)
+### Beta 3: Liga MX
 
-### Beta 3: Champions League
-
-**Fechas:** 10-17 Mayo 2026
-**Partidos:** 6 partidos (Semis + Final)
+**Fechas:** Mayo 2026
+**Partidos:** ~10 partidos
 **Objetivo:** Preparación final antes del Mundial
 **Premio:** 🥇 1er lugar → **Devolución de $30**
 
@@ -82,11 +79,11 @@ JULIO 25          →  💰 Distribución de Premios
 
 ### Resumen Torneos Beta
 
-| Torneo | Competencia  | Partidos | Premio 1er Lugar |
-| ------ | ------------ | -------- | ---------------- |
-| Beta 1 | Liga BetPlay | 10       | Devolución $30   |
-| Beta 2 | Libertadores | 8        | Devolución $30   |
-| Beta 3 | Champions    | 6        | Devolución $30   |
+| Torneo     | Competencia          | Partidos | Premio 1er Lugar |
+| ---------- | -------------------- | -------- | ---------------- |
+| **Beta 1** | Amistosos Fecha FIFA | ~10      | Devolución $30   |
+| **Beta 2** | Liga BetPlay Colombia| ~10      | Devolución $30   |
+| **Beta 3** | Liga MX              | ~10      | Devolución $30   |
 
 **Total ganadores:** 3 personas (1 por torneo)
 
@@ -178,7 +175,7 @@ JULIO 25          →  💰 Distribución de Premios
 | Mínimo | 50       |
 | Meta   | 100      |
 
-### Fase 2: Beta (Abril-Mayo)
+### Fase 2: Beta (Marzo-Abril-Mayo)
 
 | Métrica       | Objetivo         |
 | ------------- | ---------------- |

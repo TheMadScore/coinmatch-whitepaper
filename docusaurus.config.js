@@ -7,8 +7,8 @@ const config = {
   tagline: 'CoinMatch Pool',
   favicon: 'img/favicon.svg',
 
-  url: 'https://themadscore.github.io',
-  baseUrl: '/coinmatch-whitepaper/',
+  url: 'https://coinmatchpool.com',
+  baseUrl: '/docs/',
 
   organizationName: 'TheMadScore',
   projectName: 'coinmatch-docusaurus',
@@ -55,7 +55,12 @@ const config = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'Whitepaper',
+      logo: {
+        alt: 'CoinMatch Pool',
+        src: 'img/favicon.svg',
+        href: 'https://coinmatchpool.com',
+        target: '_self',
+      },
       items: [],
     },
     footer: {
